@@ -1,0 +1,2850 @@
+{
+ "events": [
+  {
+   "date": "2026-09-02",
+   "co": "Wella",
+   "also": [],
+   "cat": "fund",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": true,
+   "head": "Wella Files for US IPO as Revenue Reaches US$2.94 Billion",
+   "sum": "KKR-backed Wella Company filed to list on the NYSE under ticker WELA after returning to profit, with fiscal-year revenue of $2.94 billion (up from $2.69 billion) and net income of $2.7 million versus a $44.6 million prior-year loss. Proceeds are earmarked for debt repayment and restructuring-related tax costs.",
+   "value": "$2.94B rev",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Sep 2",
+   "url": "https://www.globalcosmeticsnews.com/wella-files-for-us-ipo-as-revenue-reaches-us2-94-billion/",
+   "id": "seed-2026-09-02-https://www.globalcosmeticsnews.com/wella-files-for-us-ipo-as-revenue-reaches-us2-94-billion/",
+   "ts": 1788368400000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/wella-files-for-us-ipo-as-revenue-reaches-us2-94-billion/"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "co": "Kimberly-Clark",
+   "also": [
+    "Kenvue"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": true,
+   "head": "Australia's ACCC Clears Kimberly-Clark's $48.7B Kenvue Acquisition, Subject to Divestment",
+   "sum": "The Australian Competition and Consumer Commission approved Kimberly-Clark's acquisition of Kenvue on condition that Kimberly-Clark divest Kenvue's Carefree and Stayfree period-care brands in Australia to preserve competition. The global deal remains subject to an EU antitrust deadline of Sept 29 and deeper China review.",
+   "value": "$48.7B deal (ACCC clears, AU divestment)",
+   "val": 48.7,
+   "src": "Inside FMCG",
+   "srcDate": "Sep 2",
+   "url": "https://insidefmcg.com.au/2026/09/02/accc-clears-kimberly-clark-kenvue-deal-subject-to-carefree-stayfree-sale/",
+   "id": "seed-2026-09-02-https://insidefmcg.com.au/2026/09/02/accc-clears-kimberly-clark-kenvue-deal-subject-to-carefree-stayfree-sale/",
+   "ts": 1788368400000,
+   "sources": [
+    {
+     "src": "Inside FMCG",
+     "url": "https://insidefmcg.com.au/2026/09/02/accc-clears-kimberly-clark-kenvue-deal-subject-to-carefree-stayfree-sale/"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "co": "Yatsen Holdings",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "Yatsen Announces Second Quarter 2026 Financial Results",
+   "sum": "Yatsen posted Q2 total net revenue of RMB1.14 billion (US$168.3 million), up 5.1% year on year, with skincare brand revenue up 40.4% offsetting continued color-cosmetics headwinds; net loss widened to RMB90.8 million.",
+   "value": "RMB1.14B rev",
+   "val": 0,
+   "src": "PR Newswire",
+   "srcDate": "Sep 2",
+   "url": "https://www.prnewswire.com/news-releases/yatsen-announces-second-quarter-2026-financial-results-302867531.html",
+   "id": "seed-2026-09-02-https://www.prnewswire.com/news-releases/yatsen-announces-second-quarter-2026-financial-results-302867531.html",
+   "ts": 1788368400000,
+   "sources": [
+    {
+     "src": "PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/yatsen-announces-second-quarter-2026-financial-results-302867531.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "co": "Yellow Wood Partners",
+   "also": [
+    "Nestlé"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": true,
+   "head": "Yellow Wood Partners Agrees to Acquire Nestlé's Holistic Health Platform",
+   "sum": "Private equity firm Yellow Wood Partners agreed to buy Nestlé's Holistic Health vitamins, minerals and supplements platform — including Nature's Bounty, Nuun, Osteo Bi-Flex and Gard — for $1.0 billion, expected to close in H1 2027.",
+   "value": "$1.0B",
+   "val": 1,
+   "src": "PR Newswire",
+   "srcDate": "Sep 1",
+   "url": "https://www.prnewswire.com/news-releases/yellow-wood-partners-agrees-to-acquire-nestles-holistic-health-platform-of-leading-vitamins-minerals-and-supplements-brands-302866603.html",
+   "id": "seed-2026-09-01-https://www.prnewswire.com/news-releases/yellow-wood-partners-agrees-to-acquire-nestles-holistic-health-platform-of-leading-vitamins-minerals-and-supplements-brands-302866603.html",
+   "ts": 1788282000000,
+   "sources": [
+    {
+     "src": "PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/yellow-wood-partners-agrees-to-acquire-nestles-holistic-health-platform-of-leading-vitamins-minerals-and-supplements-brands-302866603.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "co": "Victoria Beckham Holdings",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Europe",
+   "hi": false,
+   "head": "Victoria Beckham Holdings Returns to Profit as Beauty Drives Group Growth",
+   "sum": "Victoria Beckham Holdings reported its first operating profit since launching 18 years ago, with 2025 revenue up 15% to £129.8 million driven by the beauty division.",
+   "value": "£129.8M rev",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Sep 1",
+   "url": "https://www.globalcosmeticsnews.com/victoria-beckham-holdings-returns-to-profit-as-beauty-drives-group-growth/",
+   "id": "seed-2026-09-01-https://www.globalcosmeticsnews.com/victoria-beckham-holdings-returns-to-profit-as-beauty-drives-group-growth/",
+   "ts": 1788282000000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/victoria-beckham-holdings-returns-to-profit-as-beauty-drives-group-growth/"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "co": "Skyline Beauty Group",
+   "also": [
+    "Lumin",
+    "Meridian"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": false,
+   "head": "Skyline Beauty Group Acquires Lumin and Meridian From Pangaea Holdings",
+   "sum": "Skyline Beauty Group acquired men's skincare brand Lumin and body-grooming brand Meridian, which together generated roughly $35M in trailing sales. Terms were undisclosed; it's Skyline's second acquisition in five months following LilyAna Naturals. Off-watchlist companies — market intelligence.",
+   "value": "—",
+   "val": 0,
+   "src": "Beauty Independent",
+   "srcDate": "Sep 1",
+   "url": "https://www.beautyindependent.com/skyline-beauty-group-acquires-lumin-meridian-accelerates-dealmaking/",
+   "id": "seed-2026-09-01-https://www.beautyindependent.com/skyline-beauty-group-acquires-lumin-meridian-accelerates-dealmaking/",
+   "ts": 1788282000000,
+   "sources": [
+    {
+     "src": "Beauty Independent",
+     "url": "https://www.beautyindependent.com/skyline-beauty-group-acquires-lumin-meridian-accelerates-dealmaking/"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "co": "Shein",
+   "also": [],
+   "cat": "fund",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "Shein Completes Hong Kong IPO as Listing Reshapes Investor Obligations",
+   "sum": "Shein completed its Hong Kong IPO, raising roughly $1.7 billion at a valuation of about $26 billion — down sharply from its 2022 peak of $98.2 billion — a capital-markets event relevant to the K-beauty brands that reach shoppers through its cross-border marketplace.",
+   "value": "$1.7B raised",
+   "val": 1.7,
+   "src": "Global Cosmetics News",
+   "srcDate": "Sep 1",
+   "url": "https://www.globalcosmeticsnews.com/shein-completes-hong-kong-ipo-as-listing-reshapes-investor-obligations/",
+   "id": "seed-2026-09-01-https://www.globalcosmeticsnews.com/shein-completes-hong-kong-ipo-as-listing-reshapes-investor-obligations/",
+   "ts": 1788282000000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/shein-completes-hong-kong-ipo-as-listing-reshapes-investor-obligations/"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "co": "Dollar Shave Club",
+   "also": [
+    "Truly Beauty"
+   ],
+   "cat": "mna",
+   "sec": "Body Care",
+   "geo": "North America",
+   "hi": false,
+   "head": "Dollar Shave Club Acquires Truly Beauty in First-Ever Acquisition",
+   "sum": "Dollar Shave Club, under CEO Larry Bodner, acquired Gen Z-focused body care brand Truly Beauty as it builds a multi-brand personal care platform. Financial terms were not disclosed; both brands will retain separate identities while integrating backend operations. Off-watchlist companies — market intelligence.",
+   "value": "—",
+   "val": 0,
+   "src": "PR Newswire",
+   "srcDate": "Sep 1",
+   "url": "https://www.prnewswire.com/news-releases/dollar-shave-club-announces-acquisition-of-truly-beauty-302865796.html",
+   "id": "seed-2026-09-01-https://www.prnewswire.com/news-releases/dollar-shave-club-announces-acquisition-of-truly-beauty-302865796.html",
+   "ts": 1788282000000,
+   "sources": [
+    {
+     "src": "PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/dollar-shave-club-announces-acquisition-of-truly-beauty-302865796.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "co": "So-Young International",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "So-Young Reports Unaudited Second Quarter 2026 Financial Results",
+   "sum": "The China-based aesthetic treatment platform posted Q2 total revenue of RMB505.2 million (US$74.5M), up 33.4% year on year, driven by a 129.5% jump in aesthetic treatment services revenue.",
+   "value": "RMB505.2M revenue",
+   "val": 0,
+   "src": "PR Newswire",
+   "srcDate": "Aug 31",
+   "url": "https://www.prnewswire.com/news-releases/so-young-reports-unaudited-second-quarter-2026-financial-results-302864843.html",
+   "id": "seed-2026-08-31-https://www.prnewswire.com/news-releases/so-young-reports-unaudited-second-quarter-2026-financial-results-302864843.html",
+   "ts": 1788195600000,
+   "sources": [
+    {
+     "src": "PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/so-young-reports-unaudited-second-quarter-2026-financial-results-302864843.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "co": "Mao Geping Cosmetics",
+   "also": [],
+   "cat": "earn",
+   "sec": "Color Cosmetics",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "Mao Geping Cosmetics Reports 26.2% Revenue Growth in First Half",
+   "sum": "The Chinese prestige beauty group posted first-half revenue up 26.2% year on year to RMB3.27 billion, with profit rising roughly 20% to RMB805.45 million.",
+   "value": "RMB3.27B revenue",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 31",
+   "url": "https://www.globalcosmeticsnews.com/mao-geping-cosmetics-reports-26-2-revenue-growth-in-first-half/",
+   "id": "seed-2026-08-31-https://www.globalcosmeticsnews.com/mao-geping-cosmetics-reports-26-2-revenue-growth-in-first-half/",
+   "ts": 1788195600000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/mao-geping-cosmetics-reports-26-2-revenue-growth-in-first-half/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-28",
+   "co": "Ulta",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": true,
+   "head": "Ulta Beauty Raises 2026 Guidance as Q2 Sales Reach US$3 Billion",
+   "sum": "Ulta Beauty has raised its fiscal 2026 guidance after reporting an 8.9 percent increase in second-quarter net sales, supported by comparable sales growth, new stores and the acquisition of Space NK. The post Ulta Beauty Raises 2026 Guidance as Q2 Sales Reach US$3 Billion appeared first on Global Cosmetics News.",
+   "value": "US$3 B",
+   "val": 3,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 28",
+   "url": "https://www.globalcosmeticsnews.com/ulta-beauty-raises-2026-guidance-as-q2-sales-reach-us3-billion/",
+   "id": "seed-2026-08-28-https://www.globalcosmeticsnews.com/ulta-beauty-raises-2026-guidance-as-q2-sales-reach-us3-billion/",
+   "ts": 1787936400000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/ulta-beauty-raises-2026-guidance-as-q2-sales-reach-us3-billion/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-28",
+   "co": "LG H&H",
+   "also": [],
+   "cat": "part",
+   "sec": "Haircare",
+   "geo": "North America",
+   "hi": false,
+   "head": "LG H&H Expands Dr.Groot Across 424 Sephora Stores in the US",
+   "sum": "LG Household & Health Care rolled out its Dr.Groot premium scalp-care brand into 424 Sephora US locations, following a March digital launch on Sephora.com and a ~90-store pilot in May.",
+   "value": "—",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 28",
+   "url": "https://www.globalcosmeticsnews.com/lg-hh-expands-dr-groot-across-424-sephora-stores-in-the-us/",
+   "id": "seed-2026-08-28-https://www.globalcosmeticsnews.com/lg-hh-expands-dr-groot-across-424-sephora-stores-in-the-us/",
+   "ts": 1787936400000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/lg-hh-expands-dr-groot-across-424-sephora-stores-in-the-us/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-27",
+   "co": "Ulta",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": true,
+   "head": "Ulta Beauty Beats Wall Street Expectations, Raises Full-year Forecasts Amid Strong Q2 Performance",
+   "sum": "Bolstered by an 8.9 percent sales increase, international expansion and new initiatives, the beauty retailer raised its outlook for continued growth.",
+   "value": "—",
+   "val": 0,
+   "src": "WWD Beauty",
+   "srcDate": "Aug 27",
+   "url": "https://wwd.com/beauty-industry-news/beauty-features/ulta-beauty-beats-wall-street-expectations-raises-forecasts-1239172914/",
+   "id": "seed-2026-08-27-https://wwd.com/beauty-industry-news/beauty-features/ulta-beauty-beats-wall-street-expectations-raises-forecasts-1239172914/",
+   "ts": 1787850000000,
+   "sources": [
+    {
+     "src": "WWD Beauty",
+     "url": "https://wwd.com/beauty-industry-news/beauty-features/ulta-beauty-beats-wall-street-expectations-raises-forecasts-1239172914/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-27",
+   "co": "Ulta",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": true,
+   "head": "Ulta Beauty beats Q2 estimates, raises full-year 2026 guidance",
+   "sum": "Ulta reported Q2 FY2026 net sales up 8.9% to $3.0B and diluted EPS of $6.55 (vs. $6.17 est.), boosted by comp-sales growth and the Space NK acquisition; it raised FY2026 EPS guidance to $28.70-$29.00 and net sales growth guidance to 6.7%-7.2%.",
+   "value": "—",
+   "val": 0,
+   "src": "Ulta Beauty IR / Businesswire",
+   "srcDate": "Aug 27",
+   "url": "https://www.ulta.com/investor/news-events/press-releases",
+   "id": "seed-2026-08-27-https://www.ulta.com/investor/news-events/press-releases",
+   "ts": 1787850000000,
+   "sources": [
+    {
+     "src": "Ulta Beauty IR / Businesswire",
+     "url": "https://www.ulta.com/investor/news-events/press-releases"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-27",
+   "co": "Sephora",
+   "also": [
+    "Jahwa"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "Shanghai Jahwa Exits Sephora China Joint Venture",
+   "sum": "Shanghai Jahwa Exits Sephora China Joint Venture",
+   "value": "—",
+   "val": 0,
+   "src": "BeautyMatter",
+   "srcDate": "Aug 27",
+   "url": "https://beautymatter.com/articles/shanghai-jahwa-exits-sephora-china-joint-venture",
+   "id": "seed-2026-08-27-https://beautymatter.com/articles/shanghai-jahwa-exits-sephora-china-joint-venture",
+   "ts": 1787850000000,
+   "sources": [
+    {
+     "src": "BeautyMatter",
+     "url": "https://beautymatter.com/articles/shanghai-jahwa-exits-sephora-china-joint-venture"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "co": "LG H&H",
+   "also": [
+    "Avon"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": true,
+   "head": "Regent to acquire Avon North America from LG H&H, reuniting Avon under common ownership",
+   "sum": "Regent affiliate Stratford Worldwide agreed to buy LG H&H's stake in The Avon Company, reunifying Avon North America with Avon's international operations (which Regent already owns after its January 2026 purchase from Natura &Co) for the first time since 2016. Financial terms were not disclosed; the deal is expected to close September 1. LG H&H had bought the business for $125M in 2019.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "PR Newswire",
+   "srcDate": "Aug 24",
+   "url": "https://www.prnewswire.com/news-releases/regent-to-acquire-avon-north-america-reuniting-major-avon-businesses-after-more-than-a-decade-apart-302857829.html",
+   "id": "seed-2026-08-24-https://www.prnewswire.com/news-releases/regent-to-acquire-avon-north-america-reuniting-major-avon-businesses-after-more-than-a-decade-apart-302857829.html",
+   "ts": 1787590800000,
+   "sources": [
+    {
+     "src": "PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/regent-to-acquire-avon-north-america-reuniting-major-avon-businesses-after-more-than-a-decade-apart-302857829.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-25",
+   "co": "Ci FLAVORS",
+   "also": [
+    "KKR",
+    "L Catterton"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "KKR buys Japanese beauty platform Ci FLAVORS from L Catterton and founder",
+   "sum": "KKR agreed to acquire Ci FLAVORS, a Japanese beauty and lifestyle brand platform spanning haircare, skincare and body care (including &honey and MOROCCAN BEAUTY), from L Catterton and other shareholders for an undisclosed amount. Founder Yusaku Horiuchi and CEO Yoshiaki Okura will reinvest alongside KKR.",
+   "value": "—",
+   "val": 0,
+   "src": "DealStreetAsia / Business Wire",
+   "srcDate": "Aug 25",
+   "url": "https://www.dealstreetasia.com/stories/kkr-to-acquire-japanese-beauty-platform-ci-flavors-493124",
+   "id": "seed-2026-08-25-https://www.dealstreetasia.com/stories/kkr-to-acquire-japanese-beauty-platform-ci-flavors-493124",
+   "ts": 1787677200000,
+   "sources": [
+    {
+     "src": "DealStreetAsia / Business Wire",
+     "url": "https://www.dealstreetasia.com/stories/kkr-to-acquire-japanese-beauty-platform-ci-flavors-493124"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "co": "KIKO Milano",
+   "also": [],
+   "cat": "part",
+   "sec": "Color Cosmetics",
+   "geo": "Latin America",
+   "hi": false,
+   "head": "KIKO Milano enters Uruguay with an €8.55M expansion plan",
+   "sum": "KIKO Milano will open its first Uruguay store at Montevideo Shopping in late October in partnership with Grupo Antelo, investing €8.55M to build an eight-store network over five years and create around 100 jobs. Strong performance could open the door to a subsequent expansion into Argentina.",
+   "value": "€8.55M",
+   "val": 0.0086,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 24",
+   "url": "https://www.globalcosmeticsnews.com/kiko-milano-enters-uruguay-with-e8-55-million-expansion-plan/",
+   "id": "seed-2026-08-24-https://www.globalcosmeticsnews.com/kiko-milano-enters-uruguay-with-e8-55-million-expansion-plan/",
+   "ts": 1787590800000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/kiko-milano-enters-uruguay-with-e8-55-million-expansion-plan/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "co": "Adore Beauty",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "Adore Beauty posts record FY26 revenue as store network triples but EBITDA falls",
+   "sum": "The Australian beauty retailer reported record FY2026 revenue of A$207.3M (+4.3%), helped by an $18.6M contribution from its store network which grew from 7 to 20 locations, but underlying EBITDA fell 39% to A$3.8M on investment costs. It is targeting at least 10% revenue growth in FY27.",
+   "value": "A$207.3M rev",
+   "val": 0,
+   "src": "Business News Australia",
+   "srcDate": "Aug 24",
+   "url": "https://www.businessnewsaustralia.com/articles/adore-beauty-hits-record-207m-revenue-as-omnichannel-push-cushions-challenging-retail-market.html",
+   "id": "seed-2026-08-24-https://www.businessnewsaustralia.com/articles/adore-beauty-hits-record-207m-revenue-as-omnichannel-push-cushions-challenging-retail-market.html",
+   "ts": 1787590800000,
+   "sources": [
+    {
+     "src": "Business News Australia",
+     "url": "https://www.businessnewsaustralia.com/articles/adore-beauty-hits-record-207m-revenue-as-omnichannel-push-cushions-challenging-retail-market.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "co": "Wipro Consumer Care",
+   "also": [],
+   "cat": "mna",
+   "sec": "Skincare",
+   "geo": "Asia-Pacific",
+   "hi": true,
+   "head": "Wipro Consumer Care buys 60% of Dermatouch for ₹3.88B to enter digital-first premium skincare",
+   "sum": "Wipro Consumer Care and Lighting agreed to acquire a 60% stake in Indian skincare brand Dermatouch at an enterprise value of ₹3.88B (about US$44M), its entry into India's digital-first premium skincare segment. Dermatouch gains Wipro's distribution reach and R&D.",
+   "value": "₹3.88B / $44M",
+   "val": 0.044,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 20",
+   "url": "https://www.globalcosmeticsnews.com/wipro-consumer-care-acquires-dermatouch-to-enter-digital-first-premium-skincare/",
+   "id": "seed-2026-08-20-https://www.globalcosmeticsnews.com/wipro-consumer-care-acquires-dermatouch-to-enter-digital-first-premium-skincare/",
+   "ts": 1787245200000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/wipro-consumer-care-acquires-dermatouch-to-enter-digital-first-premium-skincare/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "co": "Ulta",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": true,
+   "head": "Target lifts full-year outlook as Q2 sales rise 5.3% and beauty grows high single digits",
+   "sum": "Q2 net sales rose 5.3% to US$26.5B with comparable sales up 3.8% and digital comps up 8.7%. Beauty delivered high single-digit growth and Target raised full-year net sales guidance to roughly 5%, a point above prior expectations — read closely by Ulta, whose shop-in-shop agreement with Target concludes this month.",
+   "value": "$26.5B rev",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 20",
+   "url": "https://www.globalcosmeticsnews.com/target-raises-2026-outlook-as-q2-sales-rise-and-beauty-delivers-high-single-digit-growth/",
+   "id": "seed-2026-08-20-https://www.globalcosmeticsnews.com/target-raises-2026-outlook-as-q2-sales-rise-and-beauty-delivers-high-single-digit-growth/",
+   "ts": 1787245200000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/target-raises-2026-outlook-as-q2-sales-rise-and-beauty-delivers-high-single-digit-growth/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "co": "Kenvue",
+   "also": [
+    "Essity"
+   ],
+   "cat": "mna",
+   "sec": "Body Care",
+   "geo": "Latin America",
+   "hi": true,
+   "head": "Essity to acquire Kenvue's Brazil feminine care business for $284M",
+   "sum": "Essity agreed to buy Kenvue's Brazilian feminine care business — the Carefree, Sempre Livre and o.b. brands — for $284M on a cash- and debt-free basis, expanding its Latin America feminine care platform. The unit generated ~BRL 800M in trailing net sales; closing is expected Q2 2027, contingent on the Kimberly-Clark/Kenvue transaction completing.",
+   "value": "$284M",
+   "val": 0.284,
+   "src": "Essity Press Release / PR Newswire",
+   "srcDate": "Aug 20",
+   "url": "https://www.essity.com/media/press-release/essity-acquires-feminine-care-business-in-brazil/9dd724cebbb532f5/",
+   "id": "seed-2026-08-20-https://www.essity.com/media/press-release/essity-acquires-feminine-care-business-in-brazil/9dd724cebbb532f5/",
+   "ts": 1787245200000,
+   "sources": [
+    {
+     "src": "Essity Press Release / PR Newswire",
+     "url": "https://www.essity.com/media/press-release/essity-acquires-feminine-care-business-in-brazil/9dd724cebbb532f5/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "co": "Proya",
+   "also": [
+    "Ulta"
+   ],
+   "cat": "part",
+   "sec": "Skincare",
+   "geo": "North America",
+   "hi": true,
+   "head": "PROYA partners with Ulta Beauty to enter US prestige skincare",
+   "sum": "Chinese skincare brand PROYA will join Ulta Beauty's prestige portfolio, launching its Advanced Firming and Original Repair collections in 400 stores nationwide and online this November. No financial terms were disclosed.",
+   "value": "—",
+   "val": 0,
+   "src": "PR Newswire",
+   "srcDate": "Aug 19",
+   "url": "https://www.prnewswire.com/news-releases/proya-partners-with-ulta-beauty-joining-the-retailers-prestige-skincare-portfolio-later-this-year-302855353.html",
+   "id": "seed-2026-08-19-https://www.prnewswire.com/news-releases/proya-partners-with-ulta-beauty-joining-the-retailers-prestige-skincare-portfolio-later-this-year-302855353.html",
+   "ts": 1787158800000,
+   "sources": [
+    {
+     "src": "PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/proya-partners-with-ulta-beauty-joining-the-retailers-prestige-skincare-portfolio-later-this-year-302855353.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "co": "Estée Lauder",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": true,
+   "head": "Estée Lauder returns to growth as FY2026 sales rise 5% and margins expand",
+   "sum": "Full-year net sales reached $15.05B with 3% organic growth, marking a return to growth after a difficult stretch; Q4 organic sales rose 5% and operating margin expanded 320bps for the year. Shares jumped on a bullish FY2027 outlook.",
+   "value": "—",
+   "val": 0,
+   "src": "The Estée Lauder Companies",
+   "srcDate": "Aug 19",
+   "url": "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/08-19-2026-110037466",
+   "id": "seed-2026-08-19-https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/08-19-2026-110037466",
+   "ts": 1787158800000,
+   "sources": [
+    {
+     "src": "The Estée Lauder Companies",
+     "url": "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/08-19-2026-110037466"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "co": "Coty",
+   "also": [],
+   "cat": "earn",
+   "sec": "Fragrance",
+   "geo": "Global",
+   "hi": true,
+   "head": "Coty beats Q4 revenue expectations but losses widen, and names Soraya Benchikh CFO",
+   "sum": "Q4 sales for the year ended 30 June rose 1% with like-for-like improving sequentially to -1%, despite an estimated 1% drag from the Middle East conflict. Sales, profit and cash flow came in ahead of expectations on cost control, but the quarterly loss widened and guidance is for a low-to-mid single-digit revenue decline. Former British American Tobacco finance chief Soraya Benchikh becomes CFO.",
+   "value": "—",
+   "val": 0,
+   "src": "Coty",
+   "srcDate": "Aug 19",
+   "url": "https://www.coty.com/news/coty-announces-fourth-quarter-fiscal-year-2026-results",
+   "id": "seed-2026-08-19-https://www.coty.com/news/coty-announces-fourth-quarter-fiscal-year-2026-results",
+   "ts": 1787158800000,
+   "sources": [
+    {
+     "src": "Coty",
+     "url": "https://www.coty.com/news/coty-announces-fourth-quarter-fiscal-year-2026-results"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "co": "Silicon2",
+   "also": [
+    "CVC Capital Partners"
+   ],
+   "cat": "fund",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "CVC Capital invests KRW300B in K-beauty distributor Silicon2",
+   "sum": "CVC Asia will acquire a 9.23% stake in Korean K-beauty distribution platform Silicon2 via newly issued convertible shares, valuing the company at an enterprise value of roughly $2.1B. Proceeds will fund international distribution and logistics expansion.",
+   "value": "$215M",
+   "val": 0.215,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 19",
+   "url": "https://www.globalcosmeticsnews.com/cvc-capital-invests-krw300-billion-in-k-beauty-distributor-silicon2/",
+   "id": "seed-2026-08-19-https://www.globalcosmeticsnews.com/cvc-capital-invests-krw300-billion-in-k-beauty-distributor-silicon2/",
+   "ts": 1787158800000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/cvc-capital-invests-krw300-billion-in-k-beauty-distributor-silicon2/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "co": "River Associates",
+   "also": [],
+   "cat": "mna",
+   "sec": "Body Care",
+   "geo": "North America",
+   "hi": false,
+   "head": "River Associates acquires personal care manufacturer Diamond Wipes",
+   "sum": "The Chattanooga private equity firm acquired Diamond Wipes, a North American contract manufacturer of disposable wet wipes and liquid-fill personal care products, from Nolan Capital. The transaction closed on 7 August and was funded from River VIII; add-on acquisitions are planned. Terms undisclosed.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 19",
+   "url": "https://www.globalcosmeticsnews.com/river-associates-acquires-personal-care-manufacturer-diamond-wipes/",
+   "id": "seed-2026-08-19-https://www.globalcosmeticsnews.com/river-associates-acquires-personal-care-manufacturer-diamond-wipes/",
+   "ts": 1787158800000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/river-associates-acquires-personal-care-manufacturer-diamond-wipes/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "co": "Amorepacific",
+   "also": [],
+   "cat": "part",
+   "sec": "Skincare",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "Amorepacific takes Mamonde into India in an exclusive Nykaa partnership",
+   "sum": "Mamonde debuted in India exclusively on Nykaa, the country's largest beauty platform, with ten products built around its Rose HA and Peony BHA lines and Hyper-Flora technology. The launch extends Amorepacific's K-beauty push beyond its Americas and EMEA momentum into a fast-growing market.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "Amorepacific",
+   "srcDate": "Aug 18",
+   "url": "https://www.apgroup.com/int/en/news/2026-08-18-1.html",
+   "id": "seed-2026-08-18-https://www.apgroup.com/int/en/news/2026-08-18-1.html",
+   "ts": 1787072400000,
+   "sources": [
+    {
+     "src": "Amorepacific",
+     "url": "https://www.apgroup.com/int/en/news/2026-08-18-1.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-14",
+   "co": "Douglas",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Europe",
+   "hi": true,
+   "head": "Douglas Q3 sales slip 2% and adjusted EBITDA falls 19.4% as it reviews its store network",
+   "sum": "Group sales fell 2.0% to €987.8M with like-for-like down 4.5% and adjusted EBITDA down 19.4% to €127.5M, on weak premium demand in Germany, France and the Netherlands. Guidance for FY25/26 was held at €4.58–4.63B revenue and a 15% adjusted EBITDA margin; exclusive brands grew double digits.",
+   "value": "—",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 14",
+   "url": "https://www.globalcosmeticsnews.com/douglas-group-accelerates-e-commerce-focus-as-q3-sales-decline/",
+   "id": "seed-2026-08-14-https://www.globalcosmeticsnews.com/douglas-group-accelerates-e-commerce-focus-as-q3-sales-decline/",
+   "ts": 1786726800000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/douglas-group-accelerates-e-commerce-focus-as-q3-sales-decline/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-14",
+   "co": "Sephora",
+   "also": [],
+   "cat": "part",
+   "sec": "Multi-category",
+   "geo": "Middle East & Africa",
+   "hi": false,
+   "head": "Sephora partners with Glam42 to bring Sephora Collection to Israel",
+   "sum": "A distribution partnership putting the Sephora Collection own-brand range into the Israeli market through local operator Glam42, extending the retailer's Middle East footprint.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 14",
+   "url": "https://www.globalcosmeticsnews.com/sephora-partners-with-glam42-to-bring-sephora-collection-to-israel/",
+   "id": "seed-2026-08-14-https://www.globalcosmeticsnews.com/sephora-partners-with-glam42-to-bring-sephora-collection-to-israel/",
+   "ts": 1786726800000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/sephora-partners-with-glam42-to-bring-sephora-collection-to-israel/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-13",
+   "co": "Haleon",
+   "also": [],
+   "cat": "fund",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": true,
+   "head": "Haleon prices a $2B three-tranche bond to refinance 2027 maturities",
+   "sum": "Haleon Capital priced $600M of 4.625% notes due 2029, $600M of 4.875% due 2031 and $800M of 5.375% due 2036, settling 21 August. Proceeds repurchase the 2027 notes tendered on 11 August and fund general corporate purposes.",
+   "value": "$2B",
+   "val": 2,
+   "src": "Investing.com",
+   "srcDate": "Aug 13",
+   "url": "https://www.investing.com/news/company-news/haleon-prices-2bn-bond-offering-across-three-tranches-93CH-4856936",
+   "id": "seed-2026-08-13-https://www.investing.com/news/company-news/haleon-prices-2bn-bond-offering-across-three-tranches-93CH-4856936",
+   "ts": 1786640400000,
+   "sources": [
+    {
+     "src": "Investing.com",
+     "url": "https://www.investing.com/news/company-news/haleon-prices-2bn-bond-offering-across-three-tranches-93CH-4856936"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "co": "Natura &Co",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Latin America",
+   "hi": true,
+   "head": "Natura &Co profit plunges 92% in Q2 as Brazil pressure deepens",
+   "sum": "Net income from continuing operations fell 92% year-on-year to R$35M (from R$446M) on a 9.1% consolidated revenue decline to R$5.17B, badly missing consensus. Brazil revenue dropped 14.8% to R$3.07B with the Natura brand down 14.5% and Avon down 22.5%, while Hispanic markets grew on a constant-currency basis.",
+   "value": "—",
+   "val": 0,
+   "src": "Cosmetics Business",
+   "srcDate": "Aug 11",
+   "url": "https://cosmeticsbusiness.com/natura-profits-slump-92-q2-2026-brazil-pressure",
+   "id": "seed-2026-08-11-https://cosmeticsbusiness.com/natura-profits-slump-92-q2-2026-brazil-pressure",
+   "ts": 1786467600000,
+   "sources": [
+    {
+     "src": "Cosmetics Business",
+     "url": "https://cosmeticsbusiness.com/natura-profits-slump-92-q2-2026-brazil-pressure"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "co": "Kenvue",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": true,
+   "head": "Kenvue's beauty sales rise 5.1% as Neutrogena and OGX drive Q2 growth",
+   "sum": "Kenvue's Skin Health and Beauty division posted 5.1% organic sales growth in Q2 2026, with 3.7% underlying organic growth split between 2.7 points of favourable value realisation and 1 point of volume. Neutrogena extended household-penetration gains for a third straight quarter in the US, with Hair Care and Face Care leading regional performance.",
+   "value": "—",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 11",
+   "url": "https://www.globalcosmeticsnews.com/kenvues-beauty-sales-rise-5-1-as-neutrogena-and-ogx-drive-q2-growth/",
+   "id": "seed-2026-08-11-https://www.globalcosmeticsnews.com/kenvues-beauty-sales-rise-5-1-as-neutrogena-and-ogx-drive-q2-growth/",
+   "ts": 1786467600000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/kenvues-beauty-sales-rise-5-1-as-neutrogena-and-ogx-drive-q2-growth/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "co": "Ashland",
+   "also": [],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": true,
+   "rumor": true,
+   "head": "Ashland explores sale after takeover interest from PE firms",
+   "sum": "Specialty ingredients supplier Ashland, valued around $3.5B, has engaged Citigroup and Lazard to explore a potential sale after inbound interest from Advent, Apollo and Carlyle, plus major shareholder Standard Industries. The process follows pressure from activist investor Ancora Holdings; a transaction is not certain.",
+   "value": "$3.5B mkt cap",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 11",
+   "url": "https://www.globalcosmeticsnews.com/ashland-explores-potential-sale-following-takeover-interest/",
+   "id": "seed-2026-08-11-https://www.globalcosmeticsnews.com/ashland-explores-potential-sale-following-takeover-interest/",
+   "ts": 1786467600000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/ashland-explores-potential-sale-following-takeover-interest/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "co": "APR",
+   "also": [],
+   "cat": "earn",
+   "sec": "Skincare",
+   "geo": "Asia-Pacific",
+   "hi": true,
+   "head": "APR's Q2 cosmetics revenue surges 185% on North America and Europe expansion",
+   "sum": "South Korean beauty group APR (Medicube) posted Q2 revenue of KRW767.5B, up 134.2% year-on-year, with operating profit up 134.5% to KRW190.6B at a 24.8% margin. Cosmetics revenue jumped 185.5% to KRW648.3B, with North America up 264.6% and Europe up 380.3%; overseas sales now account for 92% of the total.",
+   "value": "—",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 11",
+   "url": "https://www.globalcosmeticsnews.com/apr-posts-record-q2-as-cosmetics-revenue-jumps-186/",
+   "id": "seed-2026-08-11-https://www.globalcosmeticsnews.com/apr-posts-record-q2-as-cosmetics-revenue-jumps-186/",
+   "ts": 1786467600000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/apr-posts-record-q2-as-cosmetics-revenue-jumps-186/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "co": "Vyrao",
+   "also": [],
+   "cat": "mna",
+   "sec": "Fragrance",
+   "geo": "Europe",
+   "hi": false,
+   "rumor": true,
+   "head": "Fragrance brand Vyrao nears sale to undisclosed buyer",
+   "sum": "British fragrance and wellness brand Vyrao, backed by Estée Lauder's New Incubation Ventures and L Catterton, is reportedly close to being acquired by an undisclosed buyer after five years of independent growth across the UK, US, Australia and Japan. Deal value and buyer identity remain unconfirmed.",
+   "value": "—",
+   "val": 0,
+   "src": "TheIndustry.beauty",
+   "srcDate": "Aug 11",
+   "url": "https://theindustry.beauty/vyrao-nears-sale-new-owner-fragrance-brand/",
+   "id": "seed-2026-08-11-https://theindustry.beauty/vyrao-nears-sale-new-owner-fragrance-brand/",
+   "ts": 1786467600000,
+   "sources": [
+    {
+     "src": "TheIndustry.beauty",
+     "url": "https://theindustry.beauty/vyrao-nears-sale-new-owner-fragrance-brand/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "co": "PZ Cussons",
+   "also": [],
+   "cat": "earn",
+   "sec": "Body Care",
+   "geo": "Europe",
+   "hi": false,
+   "head": "PZ Cussons FY26 profit climbs as St.Tropez returns to North American growth",
+   "sum": "PZ Cussons reported FY26 revenue of £541.4M, up 5.4% (5.8% like-for-like), with adjusted operating profit up 8.4% to £59.5M — up 24.5% excluding the divested PZ Wilmar joint venture. Self-tanning brand St.Tropez returned to growth in its key North American market, and each of the group's top ten brands grew during the year.",
+   "value": "—",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 11",
+   "url": "https://www.globalcosmeticsnews.com/pz-cussons-fy26-profit-rises-as-st-tropez-returns-to-growth/",
+   "id": "seed-2026-08-11-https://www.globalcosmeticsnews.com/pz-cussons-fy26-profit-rises-as-st-tropez-returns-to-growth/",
+   "ts": 1786467600000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/pz-cussons-fy26-profit-rises-as-st-tropez-returns-to-growth/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "co": "Haleon",
+   "also": [],
+   "cat": "fund",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": false,
+   "head": "Haleon launches a tender offer for $1.999B of 2027 notes",
+   "sum": "A cash tender for the outstanding 3.375% fixed-rate senior notes due March 2027, opening a refinancing of the group's near-term maturities.",
+   "value": "$1.999B",
+   "val": 2,
+   "src": "Investing.com",
+   "srcDate": "Aug 11",
+   "url": "https://www.investing.com/news/company-news/haleon-unit-launches-tender-offer-for-2-billion-2027-notes-93CH-4851732",
+   "id": "seed-2026-08-11-https://www.investing.com/news/company-news/haleon-unit-launches-tender-offer-for-2-billion-2027-notes-93CH-4851732",
+   "ts": 1786467600000,
+   "sources": [
+    {
+     "src": "Investing.com",
+     "url": "https://www.investing.com/news/company-news/haleon-unit-launches-tender-offer-for-2-billion-2027-notes-93CH-4851732"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "co": "Edgewell",
+   "also": [],
+   "cat": "earn",
+   "sec": "Body Care",
+   "geo": "North America",
+   "hi": false,
+   "head": "Edgewell returns to organic growth as Q3 earnings beat expectations",
+   "sum": "Edgewell Personal Care posted Q3 net sales of $570.1M, up 1.7%, with organic sales growth of 1.1% and adjusted EPS of $0.72 beating guidance. North America organic sales rose 3% on higher Sun Care, Skin Care and Grooming volumes, while international organic sales fell 1.4%.",
+   "value": "—",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 11",
+   "url": "https://www.globalcosmeticsnews.com/edgewell-personal-care-returns-to-organic-growth-as-q3-earnings-beat-expectations/",
+   "id": "seed-2026-08-11-https://www.globalcosmeticsnews.com/edgewell-personal-care-returns-to-organic-growth-as-q3-earnings-beat-expectations/",
+   "ts": 1786467600000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/edgewell-personal-care-returns-to-organic-growth-as-q3-earnings-beat-expectations/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "co": "Cymbiotika",
+   "also": [],
+   "cat": "fund",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": false,
+   "head": "Cymbiotika adds Alix Earle as investor in liposomal supplement brand",
+   "sum": "Influencer Alix Earle has taken an undisclosed investment stake in Cymbiotika, joining a celebrity roster including Kendall Jenner, Hailey Bieber and The Weeknd. The bioactive supplement brand generated $150M in revenue last year and previously closed a $25M seed round in January 2026.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "TheIndustry.beauty",
+   "srcDate": "Aug 11",
+   "url": "https://theindustry.beauty/cymbiotika-secures-new-funding-as-premium-supplement-market-heats-up/",
+   "id": "seed-2026-08-11-https://theindustry.beauty/cymbiotika-secures-new-funding-as-premium-supplement-market-heats-up/",
+   "ts": 1786467600000,
+   "sources": [
+    {
+     "src": "TheIndustry.beauty",
+     "url": "https://theindustry.beauty/cymbiotika-secures-new-funding-as-premium-supplement-market-heats-up/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "co": "AKT London",
+   "also": [],
+   "cat": "fund",
+   "sec": "Body Care",
+   "geo": "Europe",
+   "hi": false,
+   "head": "AKT London launches 'Final Encore' community crowdfunding round",
+   "sum": "UK natural-deodorant brand AKT London opened a new community investment round, billed as its last raise of this kind, to let customers invest ahead of its next growth phase. Over 1,000 people pre-registered within 24 hours; the funding target was not disclosed.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "TheIndustry.beauty",
+   "srcDate": "Aug 11",
+   "url": "https://theindustry.beauty/akt-london-launches-crowdfunding-campaign/",
+   "id": "seed-2026-08-11-https://theindustry.beauty/akt-london-launches-crowdfunding-campaign/",
+   "ts": 1786467600000,
+   "sources": [
+    {
+     "src": "TheIndustry.beauty",
+     "url": "https://theindustry.beauty/akt-london-launches-crowdfunding-campaign/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "co": "Aroma-Zone",
+   "also": [
+    "Eurazeo"
+   ],
+   "cat": "fund",
+   "sec": "Multi-category",
+   "geo": "Europe",
+   "hi": true,
+   "head": "Eurazeo to invest €410M in Aroma-Zone, taking control of French natural-beauty DTC",
+   "sum": "Private equity firm Eurazeo has signed an exclusivity agreement to invest roughly €410M in Aroma-Zone, becoming the French natural beauty and aromatherapy retailer's main shareholder while the founding Vausselin family keeps a significant stake. Proceeds fund international expansion, the French e-commerce platform, and new stores beyond its current seven-store footprint.",
+   "value": "€410M",
+   "val": 0.45,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 10",
+   "url": "https://www.globalcosmeticsnews.com/eurazeo-plans-eur410-million-investment-in-aroma-zone-to-accelerate-expansion/",
+   "id": "seed-2026-08-10-https://www.globalcosmeticsnews.com/eurazeo-plans-eur410-million-investment-in-aroma-zone-to-accelerate-expansion/",
+   "ts": 1786381200000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/eurazeo-plans-eur410-million-investment-in-aroma-zone-to-accelerate-expansion/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-06",
+   "co": "Kenvue",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": false,
+   "head": "Kenvue reports second-quarter 2026 results",
+   "sum": "Second-quarter results released before market open, with the Skin Health and Beauty division's organic growth the key datapoint ahead of the Kimberly-Clark close.",
+   "value": "—",
+   "val": 0,
+   "src": "Business Wire",
+   "srcDate": "Aug 6",
+   "url": "https://www.businesswire.com/news/home/20260723599147/en/Kenvue-to-Announce-Second-Quarter-2026-Results-on-August-6-2026",
+   "id": "seed-2026-08-06-https://www.businesswire.com/news/home/20260723599147/en/Kenvue-to-Announce-Second-Quarter-2026-Results-on-August-6-2026",
+   "ts": 1786035600000,
+   "sources": [
+    {
+     "src": "Business Wire",
+     "url": "https://www.businesswire.com/news/home/20260723599147/en/Kenvue-to-Announce-Second-Quarter-2026-Results-on-August-6-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-05",
+   "co": "e.l.f. Beauty",
+   "also": [],
+   "cat": "earn",
+   "sec": "Color Cosmetics",
+   "geo": "North America",
+   "hi": true,
+   "head": "e.l.f. Beauty raises FY2027 outlook as Q1 net sales jump 36%",
+   "sum": "Q1 fiscal 2027 net sales rose 36% to $479.4M against roughly $431M consensus, with adjusted net income of $104.6M (from $51.3M) and adjusted EPS of $1.75 versus $0.71 expected. Management lifted full-year FY27 guidance to 18-20% net sales growth from 12-14%, and to $1.93-1.96B in sales from $1.83-1.86B.",
+   "value": "—",
+   "val": 0,
+   "src": "CNBC",
+   "srcDate": "Aug 5",
+   "url": "https://www.cnbc.com/2026/08/05/elf-beauty-elf-q1-2027-earnings.html",
+   "id": "seed-2026-08-05-https://www.cnbc.com/2026/08/05/elf-beauty-elf-q1-2027-earnings.html",
+   "ts": 1785949200000,
+   "sources": [
+    {
+     "src": "CNBC",
+     "url": "https://www.cnbc.com/2026/08/05/elf-beauty-elf-q1-2027-earnings.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-05",
+   "co": "Shiseido",
+   "also": [],
+   "cat": "earn",
+   "sec": "Skincare",
+   "geo": "Asia-Pacific",
+   "hi": true,
+   "head": "Shiseido H1 operating profit climbs 132% as restructuring takes hold",
+   "sum": "First-half net sales rose 6.2% to ¥499.0B with core operating profit up 90.1% to ¥44.4B and operating profit up 131.8% to ¥41.9B. China and Travel Retail sales rose 10.0% reported to ¥191.4B, with Clé de Peau Beauté and NARS driving the 618 festival.",
+   "value": "¥499.0B rev",
+   "val": 0,
+   "src": "Shiseido Investor Relations",
+   "srcDate": "Aug 5",
+   "url": "https://corp.shiseido.com/en/news/",
+   "id": "seed-2026-08-05-https://corp.shiseido.com/en/news/",
+   "ts": 1785949200000,
+   "sources": [
+    {
+     "src": "Shiseido Investor Relations",
+     "url": "https://corp.shiseido.com/en/news/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-05",
+   "co": "Beiersdorf",
+   "also": [],
+   "cat": "earn",
+   "sec": "Skincare",
+   "geo": "Europe",
+   "hi": true,
+   "head": "Beiersdorf guides to a full-year sales decline as Nivea drops 6.8%",
+   "sum": "CEO Vincent Warnery said the group needs to acquire brands to dilute its reliance on Nivea after the flagship fell 6.8% in H1 2026. Beiersdorf now expects organic sales to decline in the low single digits for the full year.",
+   "value": "—",
+   "val": 0,
+   "src": "Cosmetics Business",
+   "srcDate": "Aug 5",
+   "url": "https://cosmeticsbusiness.com/beiersdorf-eyes-acquisitions",
+   "id": "seed-2026-08-05-https://cosmeticsbusiness.com/beiersdorf-eyes-acquisitions",
+   "ts": 1785949200000,
+   "sources": [
+    {
+     "src": "Cosmetics Business",
+     "url": "https://cosmeticsbusiness.com/beiersdorf-eyes-acquisitions"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-05",
+   "co": "LG H&H",
+   "also": [],
+   "cat": "mna",
+   "sec": "Color Cosmetics",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "LG H&H discontinues colour brand TIPSY as portfolio narrows to ten priorities",
+   "sum": "LG Household & Health Care is winding down TIPSY, the colour cosmetics brand acquired via its 2020 majority stake in Roa Korea, after it failed to regain traction against social-first indie rivals. Investment shifts to ten priority brands including The History of Whoo, CNP, Belif and Dr. Groot under CEO Lee Sunjoo's restructuring. Terms undisclosed.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 5",
+   "url": "https://www.globalcosmeticsnews.com/lg-household-health-care-discontinues-tipsy-as-portfolio-restructuring-continues/",
+   "id": "seed-2026-08-05-https://www.globalcosmeticsnews.com/lg-household-health-care-discontinues-tipsy-as-portfolio-restructuring-continues/",
+   "ts": 1785949200000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/lg-household-health-care-discontinues-tipsy-as-portfolio-restructuring-continues/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-05",
+   "co": "Bodycare",
+   "also": [],
+   "cat": "fund",
+   "sec": "Multi-category",
+   "geo": "Europe",
+   "hi": false,
+   "head": "Bodycare secures Arāya Ventures-led investment for AI-powered retail rollout",
+   "sum": "UK health-and-beauty retailer Bodycare raised an undisclosed round led by Arāya Ventures, joined by entrepreneur Dilesh Mehta and a syndicate of retail, technology and consumer-brand investors. Proceeds fund its AIMEE AI platform, new Studio Stores in Derby and Leicester, and creator-led commerce.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 5",
+   "url": "https://www.globalcosmeticsnews.com/bodycare-secures-investment-to-accelerate-ai-powered-health-and-beauty-retail-strategy/",
+   "id": "seed-2026-08-05-https://www.globalcosmeticsnews.com/bodycare-secures-investment-to-accelerate-ai-powered-health-and-beauty-retail-strategy/",
+   "ts": 1785949200000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/bodycare-secures-investment-to-accelerate-ai-powered-health-and-beauty-retail-strategy/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-04",
+   "co": "Procter & Gamble",
+   "also": [],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": true,
+   "head": "P&G to acquire supplements maker Thorne for $3.8B in premium wellness push",
+   "sum": "P&G is buying Thorne in an all-cash $3.8B deal from LVMH-backed L Catterton, its largest step yet into premium wellness and personal health alongside Metamucil, Align and New Chapter. Thorne passed $500M revenue in 2025 and tracks toward roughly $650M this year, skewing under-40 and direct-to-consumer; the exit marks a more than $3B return for L Catterton, which took it private at $680M in 2023.",
+   "value": "$3.8B",
+   "val": 3.8,
+   "src": "CNBC",
+   "srcDate": "Aug 4",
+   "url": "https://www.cnbc.com/2026/08/04/procter-gamble-will-acquire-supplements-brand-thorne.html",
+   "id": "seed-2026-08-04-https://www.cnbc.com/2026/08/04/procter-gamble-will-acquire-supplements-brand-thorne.html",
+   "ts": 1785862800000,
+   "sources": [
+    {
+     "src": "CNBC",
+     "url": "https://www.cnbc.com/2026/08/04/procter-gamble-will-acquire-supplements-brand-thorne.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-04",
+   "co": "LG H&H",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": true,
+   "head": "LG H&H Q2 operating profit up 87.5% as North America overtakes China",
+   "sum": "Q2 consolidated revenue rose 3.3% to KRW1.6574tn with operating profit up 87.5% to KRW102.8B. North American revenue surged 47.3% to KRW205.8B, passing China's KRW176B for the first time, while overseas revenue grew 12.6% to KRW584.5B. The Beauty division returned to profit on 3.9% revenue growth.",
+   "value": "—",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 4",
+   "url": "https://www.globalcosmeticsnews.com/lg-household-health-care-reports-strong-q2-2026-growth-as-north-america-overtakes-china/",
+   "id": "seed-2026-08-04-https://www.globalcosmeticsnews.com/lg-household-health-care-reports-strong-q2-2026-growth-as-north-america-overtakes-china/",
+   "ts": 1785862800000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/lg-household-health-care-reports-strong-q2-2026-growth-as-north-america-overtakes-china/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-04",
+   "co": "Oriflame",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": false,
+   "head": "Oriflame Q2 sales fall 13% as transformation programme grinds on",
+   "sum": "Q2 sales dropped 13% in both euros and local currencies, with adjusted EBITDA swinging to a €4.7M loss on lower volumes, inventory provisions and excess-stock liquidation. Latin America grew 6% while Europe & CIS, Turkey & Africa and Asia all declined; adjusted cash flow before financing stayed positive at €8.6M.",
+   "value": "—",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Aug 4",
+   "url": "https://www.globalcosmeticsnews.com/oriflame-advances-transformation-strategy-despite-first-half-sales-decline/",
+   "id": "seed-2026-08-04-https://www.globalcosmeticsnews.com/oriflame-advances-transformation-strategy-despite-first-half-sales-decline/",
+   "ts": 1785862800000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/oriflame-advances-transformation-strategy-despite-first-half-sales-decline/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-03",
+   "co": "Boots",
+   "also": [],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "Europe",
+   "hi": false,
+   "rumor": true,
+   "head": "Boots £7B takeover talks stall after Weston family lowers its offer",
+   "sum": "Sycamore Partners rejected a reduced bid from the Weston family's Wittington Investments for Boots, leaving the roughly £7B ($9.4B) sale in doubt with a source close to talks putting revival at 50/50. The Westons cut their offer after Sigma Healthcare's June exit left them sole bidder; Sycamore is expected to restart IPO plans next year if no deal lands.",
+   "value": "£7B talks",
+   "val": 0,
+   "src": "TheIndustry.beauty",
+   "srcDate": "Aug 3",
+   "url": "https://theindustry.beauty/boots-takeover-talks-stall-after-weston-family-lowers-offer/",
+   "id": "seed-2026-08-03-https://theindustry.beauty/boots-takeover-talks-stall-after-weston-family-lowers-offer/",
+   "ts": 1785776400000,
+   "sources": [
+    {
+     "src": "TheIndustry.beauty",
+     "url": "https://theindustry.beauty/boots-takeover-talks-stall-after-weston-family-lowers-offer/"
+    }
+   ]
+  },
+  {
+   "date": "2026-08-03",
+   "co": "Beiersdorf",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Europe",
+   "hi": false,
+   "head": "Beiersdorf cuts FY2026 guidance and resolves an 18-month NIVEA turnaround",
+   "sum": "H1 group sales fell 3.5% organically to €5.0B with NIVEA down 6.8% on customer conflicts, delayed seasonal demand and trade destocking, while derma brands Eucerin and Aquaphor grew 7.8%. The board resolved an 18-month NIVEA turnaround with an additional €100M of consumer-facing marketing in H2 and now guides to a low-single-digit organic sales decline for the year.",
+   "value": "€100M",
+   "val": 0.1,
+   "src": "Beiersdorf IR",
+   "srcDate": "Aug 3",
+   "url": "https://www.beiersdorf.com/newsroom/press-news/all-news/2026/08/03-beiersdorf-adjusts-guidance-for-the-full-year-2026",
+   "id": "seed-2026-08-03-https://www.beiersdorf.com/newsroom/press-news/all-news/2026/08/03-beiersdorf-adjusts-guidance-for-the-full-year-2026",
+   "ts": 1785776400000,
+   "sources": [
+    {
+     "src": "Beiersdorf IR",
+     "url": "https://www.beiersdorf.com/newsroom/press-news/all-news/2026/08/03-beiersdorf-adjusts-guidance-for-the-full-year-2026"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-30",
+   "co": "L'Oréal",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": true,
+   "head": "L'Oréal H1 growth accelerates to 6.5% with a record 21.3% operating margin",
+   "sum": "First-half sales of €23.7B, up 5.8% reported despite a 2.8-point currency headwind, with adjusted like-for-like growth of 6.5% — more than double H1 2025's 3.2% — and a first-half record operating margin of 21.3%.",
+   "value": "€23.7B rev",
+   "val": 0,
+   "src": "L'Oréal Finance",
+   "srcDate": "Jul 30",
+   "url": "https://www.loreal-finance.com/eng/press-release/2026-half-year-results",
+   "id": "seed-2026-07-30-https://www.loreal-finance.com/eng/press-release/2026-half-year-results",
+   "ts": 1785430800000,
+   "sources": [
+    {
+     "src": "L'Oréal Finance",
+     "url": "https://www.loreal-finance.com/eng/press-release/2026-half-year-results"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-30",
+   "co": "Amorepacific",
+   "also": [],
+   "cat": "earn",
+   "sec": "Skincare",
+   "geo": "Asia-Pacific",
+   "hi": true,
+   "head": "Amorepacific Q2 operating profit surges 53% as overseas revenue jumps 28%",
+   "sum": "Group revenue of KRW1.2543tn with operating profit up 53% to KRW122.8B. At the flagship Amorepacific unit overseas revenue rose 28% and overseas operating profit nearly doubled, up 99%, led by the Americas and EMEA.",
+   "value": "—",
+   "val": 0,
+   "src": "Amorepacific",
+   "srcDate": "Jul 30",
+   "url": "https://www.apgroup.com/int/en/news/2026-07-30-1.html",
+   "id": "seed-2026-07-30-https://www.apgroup.com/int/en/news/2026-07-30-1.html",
+   "ts": 1785430800000,
+   "sources": [
+    {
+     "src": "Amorepacific",
+     "url": "https://www.apgroup.com/int/en/news/2026-07-30-1.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-30",
+   "co": "Amorepacific",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "Amorepacific Group Q2 operating profit jumps 53.3% on Americas and EMEA strength",
+   "sum": "Group Q2 revenue rose 14.6% to KRW1.25tn with operating profit up 53.3% to KRW122.8B, beating consensus. Americas and EMEA revenue climbed 28% with operating profit up 99%, while Greater China declined on channel optimisation. The group held a double-digit operating margin for a second consecutive quarter.",
+   "value": "—",
+   "val": 0,
+   "src": "Seoul Economic Daily",
+   "srcDate": "Jul 30",
+   "url": "https://en.sedaily.com/finance/2026/07/30/amorepacific-group-q2-operating-profit-jumps-533-percent-to",
+   "id": "seed-2026-07-30-https://en.sedaily.com/finance/2026/07/30/amorepacific-group-q2-operating-profit-jumps-533-percent-to",
+   "ts": 1785430800000,
+   "sources": [
+    {
+     "src": "Seoul Economic Daily",
+     "url": "https://en.sedaily.com/finance/2026/07/30/amorepacific-group-q2-operating-profit-jumps-533-percent-to"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-29",
+   "co": "Procter & Gamble",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": true,
+   "head": "P&G Beauty net sales rise 7% to $16.0B in fiscal 2026",
+   "sum": "Fourth-quarter and full-year results: the Beauty division was among the group's strongest, with annual net sales up 7% to $16.0B on hair care and premium skincare including SK-II. Beauty organic sales rose 4% in Q4 after 7% in Q3.",
+   "value": "$16.0B div. rev",
+   "val": 0,
+   "src": "CNBC",
+   "srcDate": "Jul 29",
+   "url": "https://www.cnbc.com/2026/07/29/procter-gamble-pg-q4-2026-earnings.html",
+   "id": "seed-2026-07-29-https://www.cnbc.com/2026/07/29/procter-gamble-pg-q4-2026-earnings.html",
+   "ts": 1785344400000,
+   "sources": [
+    {
+     "src": "CNBC",
+     "url": "https://www.cnbc.com/2026/07/29/procter-gamble-pg-q4-2026-earnings.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-28",
+   "co": "Unilever",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": true,
+   "head": "Unilever posts its best first half in a decade, Beauty & Wellbeing up 5.9%",
+   "sum": "Group underlying sales grew 4.8% with volume contributing 4.2 points — the strongest volume-led first half in ten years. Beauty & Wellbeing rose 5.9% (4.5% volume), led by double-digit volume growth at Dove, Sunsilk and Vaseline plus prestige beauty.",
+   "value": "—",
+   "val": 0,
+   "src": "Unilever",
+   "srcDate": "Jul 28",
+   "url": "https://www.investegate.co.uk/announcement/rns/unilever--ulvr/2026-first-half-results/9689925",
+   "id": "seed-2026-07-28-https://www.investegate.co.uk/announcement/rns/unilever--ulvr/2026-first-half-results/9689925",
+   "ts": 1785258000000,
+   "sources": [
+    {
+     "src": "Unilever",
+     "url": "https://www.investegate.co.uk/announcement/rns/unilever--ulvr/2026-first-half-results/9689925"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-27",
+   "co": "LVMH",
+   "also": [],
+   "cat": "earn",
+   "sec": "Fragrance",
+   "geo": "Global",
+   "hi": true,
+   "head": "LVMH Perfumes & Cosmetics holds flat at €3.9B as second-quarter growth accelerates",
+   "sum": "Half-year revenue of €38.6B with organic growth of 2%, accelerating to 3% in Q2. Perfumes & Cosmetics was stable organically at €3.9B with a slightly higher operating margin, helped by Dior's J'adore Intense and Dior Addict launches, Guerlain and Maison Francis Kurkdjian.",
+   "value": "€3.9B div. rev",
+   "val": 0,
+   "src": "GlobeNewswire",
+   "srcDate": "Jul 27",
+   "url": "https://www.globenewswire.com/news-release/2026/07/27/3333733/0/en/lvmh-accelerating-growth-in-the-second-quarter-solid-first-half-results.html",
+   "id": "seed-2026-07-27-https://www.globenewswire.com/news-release/2026/07/27/3333733/0/en/lvmh-accelerating-growth-in-the-second-quarter-solid-first-half-results.html",
+   "ts": 1785171600000,
+   "sources": [
+    {
+     "src": "GlobeNewswire",
+     "url": "https://www.globenewswire.com/news-release/2026/07/27/3333733/0/en/lvmh-accelerating-growth-in-the-second-quarter-solid-first-half-results.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-23",
+   "co": "Amorepacific",
+   "also": [],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": true,
+   "head": "Amorepacific to sell regional offices and logistics centres to fund overseas push",
+   "sum": "Amorepacific is divesting domestic property — regional offices in Busan, Daegu, Daejeon and Gwangju plus logistics centres in Incheon and Gimhae — targeting roughly KRW150B (~$109M) to redirect capital toward its goal of 70% overseas revenue and KRW15tn sales by 2035. A group-level asset-efficiency programme, not a brand sale.",
+   "value": "~KRW150B",
+   "val": 0.11,
+   "src": "Global Cosmetics News",
+   "srcDate": "Jul 23",
+   "url": "https://www.globalcosmeticsnews.com/amorepacific-reshapes-domestic-asset-portfolio-to-support-global-growth-strategy/",
+   "id": "seed-2026-07-23-https://www.globalcosmeticsnews.com/amorepacific-reshapes-domestic-asset-portfolio-to-support-global-growth-strategy/",
+   "ts": 1784826000000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/amorepacific-reshapes-domestic-asset-portfolio-to-support-global-growth-strategy/"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-22",
+   "co": "Amorepacific",
+   "also": [],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "Amorepacific to sell Anseong inner-beauty plant, consolidate output at Osan",
+   "sum": "Amorepacific is seeking a buyer for its Anseong health-supplement plant (KRW204.7B annual capacity, ~46% utilisation last year), which makes its Vital Beauty inner-beauty line, shifting production to its larger Osan complex to lift capital efficiency. Sale price undisclosed.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Jul 22",
+   "url": "https://www.globalcosmeticsnews.com/amorepacific-plans-sale-of-inner-beauty-manufacturing-plant-to-improve-capital-efficiency/",
+   "id": "seed-2026-07-22-https://www.globalcosmeticsnews.com/amorepacific-plans-sale-of-inner-beauty-manufacturing-plant-to-improve-capital-efficiency/",
+   "ts": 1784739600000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/amorepacific-plans-sale-of-inner-beauty-manufacturing-plant-to-improve-capital-efficiency/"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-21",
+   "co": "LG H&H",
+   "also": [
+    "Amorepacific"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "LG H&H launches auction for beverage unit Haitai HTB as K-beauty majors refocus",
+   "sum": "LG H&H is running preliminary auctions for Haitai HTB, Korea's third-largest beverage company (~KRW343B annual sales), to concentrate on cosmetics as indie K-beauty brands gain share — paralleling Amorepacific's own asset disposals. Price undisclosed; intent letters expected this month.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "The Korea Times",
+   "srcDate": "Jul 21",
+   "url": "https://www.koreatimes.co.kr/business/companies/20260721/amorepacific-lg-hh-streamline-portfolios-amid-rise-of-indie-k-beauty-brands",
+   "id": "seed-2026-07-21-https://www.koreatimes.co.kr/business/companies/20260721/amorepacific-lg-hh-streamline-portfolios-amid-rise-of-indie-k-beauty-brands",
+   "ts": 1784653200000,
+   "sources": [
+    {
+     "src": "The Korea Times",
+     "url": "https://www.koreatimes.co.kr/business/companies/20260721/amorepacific-lg-hh-streamline-portfolios-amid-rise-of-indie-k-beauty-brands"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-16",
+   "co": "Guinness Atkinson",
+   "also": [
+    "Amorepacific",
+    "LG H&H"
+   ],
+   "cat": "fund",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": true,
+   "head": "First US-listed K-beauty ETF filed with the SEC",
+   "sum": "US asset manager Guinness Atkinson filed a preliminary prospectus for the K-Beauty ETF (KBTY), set for NYSE Arca in H2 — at least 80% in South Korean beauty names spanning brand owners, contract manufacturers, ingredient suppliers, retailers and dermatology. A first dedicated public-markets vehicle for the sector.",
+   "value": "ETF filing",
+   "val": 0,
+   "src": "Seoul Economic Daily / Global Cosmetics News",
+   "srcDate": "Jul 16",
+   "url": "https://en.sedaily.com/finance/2026/07/16/first-k-beauty-etf-set-to-debut-on-us-market-including",
+   "id": "seed-2026-07-16-https://en.sedaily.com/finance/2026/07/16/first-k-beauty-etf-set-to-debut-on-us-market-including",
+   "ts": 1784221200000,
+   "sources": [
+    {
+     "src": "Seoul Economic Daily / Global Cosmetics News",
+     "url": "https://en.sedaily.com/finance/2026/07/16/first-k-beauty-etf-set-to-debut-on-us-market-including"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-16",
+   "co": "Avon",
+   "also": [
+    "Natura &Co"
+   ],
+   "cat": "fund",
+   "sec": "Multi-category",
+   "geo": "Europe",
+   "hi": false,
+   "head": "Avon signs lease at The Rowe for a consolidated London headquarters",
+   "sum": "Avon took 15,234 sq ft of fitted office space at Frasers Property UK's Whitechapel development, folding its London teams into a single site. Lease value undisclosed — a footprint decision rather than a capital commitment.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Jul 16",
+   "url": "https://www.globalcosmeticsnews.com/avon-selects-the-rowe-as-new-london-headquarters/",
+   "id": "seed-2026-07-16-https://www.globalcosmeticsnews.com/avon-selects-the-rowe-as-new-london-headquarters/",
+   "ts": 1784221200000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/avon-selects-the-rowe-as-new-london-headquarters/"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-15",
+   "co": "Harvey Nichols",
+   "also": [
+    "Frasers Group",
+    "Next"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "Europe",
+   "hi": false,
+   "rumor": true,
+   "head": "Frasers Group forces its way into the Harvey Nichols sale process",
+   "sum": "A memo to suppliers said Harvey Nichols is now obliged to admit Frasers alongside other bidders including Next, with initial bids expected later in July. Reported via Sky News, not an official announcement; several brand owners have raised concerns over the luxury positioning of the beauty halls.",
+   "value": "—",
+   "val": 0,
+   "src": "TheIndustry.beauty",
+   "srcDate": "Jul 15",
+   "url": "https://theindustry.beauty/frasers-group-enters-harvey-nichols-group-sales-process-despite-supplier-concerns/",
+   "id": "seed-2026-07-15-https://theindustry.beauty/frasers-group-enters-harvey-nichols-group-sales-process-despite-supplier-concerns/",
+   "ts": 1784134800000,
+   "sources": [
+    {
+     "src": "TheIndustry.beauty",
+     "url": "https://theindustry.beauty/frasers-group-enters-harvey-nichols-group-sales-process-despite-supplier-concerns/"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-14",
+   "co": "IM8",
+   "also": [
+    "Prenetics",
+    "General Catalyst"
+   ],
+   "cat": "fund",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": true,
+   "head": "Prenetics' IM8 secures $1B growth financing from General Catalyst",
+   "sum": "General Catalyst's Customer Value Fund will finance up to 70% of IM8's marketing spend in return for a capped share of revenue — structured as a loan, not venture equity. The Beckham-co-founded supplement brand reported ~$17M revenue in June and projects a $300M run-rate by year-end.",
+   "value": "$1B",
+   "val": 0,
+   "src": "GlobeNewswire / Bloomberg",
+   "srcDate": "Jul 14",
+   "url": "https://www.globenewswire.com/news-release/2026/07/14/3327198/0/en/prenetics-im8-secures-1-billion-growth-financing-from-general-catalyst-s-customer-value-fund-cvf.html",
+   "id": "seed-2026-07-14-https://www.globenewswire.com/news-release/2026/07/14/3327198/0/en/prenetics-im8-secures-1-billion-growth-financing-from-general-catalyst-s-customer-value-fund-cvf.html",
+   "ts": 1784048400000,
+   "sources": [
+    {
+     "src": "GlobeNewswire / Bloomberg",
+     "url": "https://www.globenewswire.com/news-release/2026/07/14/3327198/0/en/prenetics-im8-secures-1-billion-growth-financing-from-general-catalyst-s-customer-value-fund-cvf.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-13",
+   "co": "Shein",
+   "also": [
+    "LG H&H",
+    "Amorepacific"
+   ],
+   "cat": "fund",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": true,
+   "head": "Shein secures CSRC approval for a Hong Kong IPO",
+   "sum": "China's securities regulator has cleared Shein to proceed with a Hong Kong listing — a capital-markets and distribution-scale event for the K-beauty houses that reach shoppers through its cross-border marketplace.",
+   "value": "IPO",
+   "val": 0,
+   "src": "Global Cosmetics News",
+   "srcDate": "Jul 13",
+   "url": "https://www.globalcosmeticsnews.com/",
+   "id": "seed-2026-07-13-https://www.globalcosmeticsnews.com/",
+   "ts": 1783962000000,
+   "sources": [
+    {
+     "src": "Global Cosmetics News",
+     "url": "https://www.globalcosmeticsnews.com/"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-13",
+   "co": "Kenvue",
+   "also": [
+    "Kimberly-Clark"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": true,
+   "head": "US appeals court revives Tylenol autism suits, clouding the $48.7B Kimberly-Clark deal",
+   "sum": "The Second Circuit reinstated more than 500 private claims tying prenatal Tylenol use to autism and ADHD, ruling expert testimony had been improperly excluded. Kenvue shares fell about 2%, adding litigation risk to the pending Kimberly-Clark acquisition.",
+   "value": "—",
+   "val": 0,
+   "src": "CNBC",
+   "srcDate": "Jul 13",
+   "url": "https://www.cnbc.com/2026/07/13/us-appeals-court-revives-private-lawsuits-linking-tylenol-to-autism.html",
+   "id": "seed-2026-07-13-https://www.cnbc.com/2026/07/13/us-appeals-court-revives-private-lawsuits-linking-tylenol-to-autism.html",
+   "ts": 1783962000000,
+   "sources": [
+    {
+     "src": "CNBC",
+     "url": "https://www.cnbc.com/2026/07/13/us-appeals-court-revives-private-lawsuits-linking-tylenol-to-autism.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-12",
+   "co": "Rituals",
+   "also": [],
+   "cat": "fund",
+   "sec": "Body Care",
+   "geo": "Europe",
+   "hi": false,
+   "head": "Rituals commits €40M to refresh 1,500 boutiques across 30 countries",
+   "sum": "A retail-capital programme beginning 3 August, with the first European phase completing 25 September — continued investment in prestige body and home ranges after 2025 revenue of €2.43B, up 15.7%.",
+   "value": "€40M",
+   "val": 0,
+   "src": "365 Retail / WWD",
+   "srcDate": "Jul 12",
+   "url": "https://365retail.co.uk/rituals-plans-e40m-refit-across-1500-boutiques/",
+   "id": "seed-2026-07-12-https://365retail.co.uk/rituals-plans-e40m-refit-across-1500-boutiques/",
+   "ts": 1783875600000,
+   "sources": [
+    {
+     "src": "365 Retail / WWD",
+     "url": "https://365retail.co.uk/rituals-plans-e40m-refit-across-1500-boutiques/"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-11",
+   "co": "Coty",
+   "also": [
+    "Megan Thee Stallion",
+    "Ulta"
+   ],
+   "cat": "part",
+   "sec": "Fragrance",
+   "geo": "North America",
+   "hi": false,
+   "head": "Megan Thee Stallion's Coty fragrance reaches Ulta stores nationwide",
+   "sum": "Hot Girl Summer Eau de Parfum ($29–$84) reached Ulta shelves on 11 July — the retail rollout of the Coty celebrity-fragrance partnership announced 2 July.",
+   "value": "Retail launch",
+   "val": 0,
+   "src": "PR Newswire / Ulta",
+   "srcDate": "Jul 11",
+   "url": "https://www.prnewswire.com/news-releases/megan-thee-stallion-enters-fragrance-industry--introduces-new-hot-girl-summer-eau-de-parfum-302816107.html",
+   "id": "seed-2026-07-11-https://www.prnewswire.com/news-releases/megan-thee-stallion-enters-fragrance-industry--introduces-new-hot-girl-summer-eau-de-parfum-302816107.html",
+   "ts": 1783789200000,
+   "sources": [
+    {
+     "src": "PR Newswire / Ulta",
+     "url": "https://www.prnewswire.com/news-releases/megan-thee-stallion-enters-fragrance-industry--introduces-new-hot-girl-summer-eau-de-parfum-302816107.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-10",
+   "co": "Essential Parfums",
+   "also": [
+    "Style Capital"
+   ],
+   "cat": "fund",
+   "sec": "Fragrance",
+   "geo": "Europe",
+   "hi": false,
+   "head": "Style Capital takes a minority stake in Essential Parfums",
+   "sum": "The Italian private-equity fund backs the Parisian clean-fragrance house — continued institutional appetite for indie perfume in the prestige tier.",
+   "value": "Minority",
+   "val": 0,
+   "src": "TheIndustry.beauty",
+   "srcDate": "Jul 10",
+   "url": "https://theindustry.beauty/",
+   "id": "seed-2026-07-10-https://theindustry.beauty/",
+   "ts": 1783702800000,
+   "sources": [
+    {
+     "src": "TheIndustry.beauty",
+     "url": "https://theindustry.beauty/"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-07",
+   "co": "L'Oréal",
+   "also": [],
+   "cat": "part",
+   "sec": "Fragrance",
+   "geo": "Europe",
+   "hi": true,
+   "head": "L'Oréal secures a 50-year exclusive worldwide beauty licence for Gucci",
+   "sum": "Kering and L'Oréal brought the Gucci beauty licence forward by a year. L'Oréal takes over creation, development and distribution of Gucci fragrance and beauty from 1 July 2027, subject to regulatory approvals — an extension of the October 2025 alliance.",
+   "value": "50-year licence",
+   "val": 0,
+   "src": "GlobeNewswire",
+   "srcDate": "Jul 7",
+   "url": "https://www.globenewswire.com/news-release/2026/07/07/3323630/0/en/kering-announces-that-gucci-and-l-or%C3%A9al-have-entered-into-a-50-year-exclusive-beauty-licence-agreement-one-year-ahead-of-schedule.html",
+   "id": "seed-2026-07-07-https://www.globenewswire.com/news-release/2026/07/07/3323630/0/en/kering-announces-that-gucci-and-l-or%C3%A9al-have-entered-into-a-50-year-exclusive-beauty-licence-agreement-one-year-ahead-of-schedule.html",
+   "ts": 1783443600000,
+   "sources": [
+    {
+     "src": "GlobeNewswire",
+     "url": "https://www.globenewswire.com/news-release/2026/07/07/3323630/0/en/kering-announces-that-gucci-and-l-or%C3%A9al-have-entered-into-a-50-year-exclusive-beauty-licence-agreement-one-year-ahead-of-schedule.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-07",
+   "co": "Coty",
+   "also": [],
+   "cat": "mna",
+   "sec": "Fragrance",
+   "geo": "Global",
+   "hi": true,
+   "head": "Coty agrees to hand the Gucci Beauty licence back to Kering for about $400M",
+   "sum": "Coty receives roughly $400M to transition the Gucci Beauty licence early, and will continue operating the brand through at least 30 June 2027. The exit removes a major franchise from Coty's prestige portfolio.",
+   "value": "$400M",
+   "val": 0.4,
+   "src": "Coty",
+   "srcDate": "Jul 7",
+   "url": "https://www.coty.com/news/coty-announces-agreement-with-kering-for-early-transition-of-gucci-beauty-license",
+   "id": "seed-2026-07-07-https://www.coty.com/news/coty-announces-agreement-with-kering-for-early-transition-of-gucci-beauty-license",
+   "ts": 1783443600000,
+   "sources": [
+    {
+     "src": "Coty",
+     "url": "https://www.coty.com/news/coty-announces-agreement-with-kering-for-early-transition-of-gucci-beauty-license"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-07",
+   "co": "Henkel",
+   "also": [],
+   "cat": "mna",
+   "sec": "Haircare",
+   "geo": "Europe",
+   "hi": false,
+   "head": "Henkel closes its acquisition of Olaplex",
+   "sum": "The $1.4B purchase of the prestige hair care brand completed, bringing Olaplex into Henkel's Consumer Brands hair portfolio alongside Schwarzkopf.",
+   "value": "—",
+   "val": 0,
+   "src": "Henkel",
+   "srcDate": "Jul 7",
+   "url": "https://www.henkel.com/press-and-media/press-releases-and-kits/2026-07-07-henkel-successfully-closes-acquisition-of-premium-hair-care-brand-olaplex-2193832",
+   "id": "seed-2026-07-07-https://www.henkel.com/press-and-media/press-releases-and-kits/2026-07-07-henkel-successfully-closes-acquisition-of-premium-hair-care-brand-olaplex-2193832",
+   "ts": 1783443600000,
+   "sources": [
+    {
+     "src": "Henkel",
+     "url": "https://www.henkel.com/press-and-media/press-releases-and-kits/2026-07-07-henkel-successfully-closes-acquisition-of-premium-hair-care-brand-olaplex-2193832"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-18",
+   "co": "L'Oréal",
+   "also": [],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "L'Oréal takes a majority stake in Indian personal care house Innovist",
+   "sum": "A majority investment in Innovist, the house behind several fast-growing Indian personal care brands, marking a significant step up in L'Oréal's exposure to India's expanding beauty market. Terms undisclosed.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "L'Oréal",
+   "srcDate": "Jun 18",
+   "url": "https://www.loreal.com/en/press-release/",
+   "id": "seed-2026-06-18-https://www.loreal.com/en/press-release/",
+   "ts": 1781802000000,
+   "sources": [
+    {
+     "src": "L'Oréal",
+     "url": "https://www.loreal.com/en/press-release/"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-02",
+   "co": "Ulta",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": true,
+   "head": "Ulta Beauty Q1 net sales rise 11.1% to $3.2B as comps gain 5.3%",
+   "sum": "First-quarter net sales grew 11.1% to $3.2B with comparable sales up 5.3% — a 3.7% higher average ticket and 1.6% more transactions — and the company updated its fiscal 2026 guidance.",
+   "value": "$3.2B rev",
+   "val": 0,
+   "src": "Ulta Beauty Investor Relations",
+   "srcDate": "Jun 2",
+   "url": "https://www.businesswire.com/news/home/20260602303814/en/Ulta-Beauty-Announces-First-Quarter-Fiscal-2026-Results-and-Updates-Fiscal-2026-Guidance",
+   "id": "seed-2026-06-02-https://www.businesswire.com/news/home/20260602303814/en/Ulta-Beauty-Announces-First-Quarter-Fiscal-2026-Results-and-Updates-Fiscal-2026-Guidance",
+   "ts": 1780419600000,
+   "sources": [
+    {
+     "src": "Ulta Beauty Investor Relations",
+     "url": "https://www.businesswire.com/news/home/20260602303814/en/Ulta-Beauty-Announces-First-Quarter-Fiscal-2026-Results-and-Updates-Fiscal-2026-Guidance"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-28",
+   "co": "Church & Dwight",
+   "also": [],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": false,
+   "head": "Church & Dwight acquires stain-removal brand Miss Mouth's Messy Eater for about $325M",
+   "sum": "A bolt-on that extends the household and personal-care portfolio into specialist stain removal, at a price of roughly $325M.",
+   "value": "$325M",
+   "val": 0.325,
+   "src": "SEC Form 8-K",
+   "srcDate": "May 28",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000313927/000119312526199066/chd-ex99_1.htm",
+   "id": "seed-2026-05-28-https://www.sec.gov/Archives/edgar/data/0000313927/000119312526199066/chd-ex99_1.htm",
+   "ts": 1779987600000,
+   "sources": [
+    {
+     "src": "SEC Form 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000313927/000119312526199066/chd-ex99_1.htm"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-21",
+   "co": "Estée Lauder",
+   "also": [
+    "Puig"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": true,
+   "head": "Estée Lauder and Puig terminate combination discussions",
+   "sum": "The parties ended talks over a potential business combination, closing the door on what would have been a roughly $40B luxury beauty group and leaving Estée Lauder to pursue its turnaround independently.",
+   "value": "—",
+   "val": 0,
+   "src": "The Estée Lauder Companies",
+   "srcDate": "May 21",
+   "url": "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/05-21-2026-210537445",
+   "id": "seed-2026-05-21-https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/05-21-2026-210537445",
+   "ts": 1779382800000,
+   "sources": [
+    {
+     "src": "The Estée Lauder Companies",
+     "url": "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/05-21-2026-210537445"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-15",
+   "co": "Estée Lauder",
+   "also": [],
+   "cat": "mna",
+   "sec": "Color Cosmetics",
+   "geo": "Global",
+   "hi": true,
+   "head": "Estée Lauder plans to divest Too Faced, Smashbox and Dr.Jart+",
+   "sum": "Three brands go up for sale as the portfolio narrows around the highest-return franchises — the colour houses Too Faced and Smashbox plus Korean skincare brand Dr.Jart+. Terms were not disclosed.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "GuruFocus",
+   "srcDate": "May 15",
+   "url": "https://www.gurufocus.com/news/8863518/este-lauder-plans-to-sell-three-brands-amid-acquisition-talks-with-puig",
+   "id": "seed-2026-05-15-https://www.gurufocus.com/news/8863518/este-lauder-plans-to-sell-three-brands-amid-acquisition-talks-with-puig",
+   "ts": 1778864400000,
+   "sources": [
+    {
+     "src": "GuruFocus",
+     "url": "https://www.gurufocus.com/news/8863518/este-lauder-plans-to-sell-three-brands-amid-acquisition-talks-with-puig"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-12",
+   "co": "Shiseido",
+   "also": [],
+   "cat": "earn",
+   "sec": "Skincare",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "Shiseido Q1 2026 core operating profit jumps 58% despite a China slowdown",
+   "sum": "First-quarter core operating profit rose sharply on restructuring benefits, with the Americas turning profitable and the China outlook revised upward even as revenue declined.",
+   "value": "—",
+   "val": 0,
+   "src": "Shiseido Investor Relations",
+   "srcDate": "May 12",
+   "url": "https://corp.shiseido.com/en/ir/pdf/ir20260512_284.pdf",
+   "id": "seed-2026-05-12-https://corp.shiseido.com/en/ir/pdf/ir20260512_284.pdf",
+   "ts": 1778605200000,
+   "sources": [
+    {
+     "src": "Shiseido Investor Relations",
+     "url": "https://corp.shiseido.com/en/ir/pdf/ir20260512_284.pdf"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-07",
+   "co": "Kenvue",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": false,
+   "head": "Kenvue reports first-quarter 2026 results",
+   "sum": "First-quarter results published before market open, again without a call given the pending Kimberly-Clark deal. Skin Health and Beauty remained the segment investors watched most closely.",
+   "value": "—",
+   "val": 0,
+   "src": "Kenvue Investor Relations",
+   "srcDate": "May 7",
+   "url": "https://investors.kenvue.com/financial-news/news-details/2026/Kenvue-to-Announce-First-Quarter-2026-Results-on-May-7-2026/default.aspx",
+   "id": "seed-2026-05-07-https://investors.kenvue.com/financial-news/news-details/2026/Kenvue-to-Announce-First-Quarter-2026-Results-on-May-7-2026/default.aspx",
+   "ts": 1778173200000,
+   "sources": [
+    {
+     "src": "Kenvue Investor Relations",
+     "url": "https://investors.kenvue.com/financial-news/news-details/2026/Kenvue-to-Announce-First-Quarter-2026-Results-on-May-7-2026/default.aspx"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-05",
+   "co": "Coty",
+   "also": [],
+   "cat": "earn",
+   "sec": "Fragrance",
+   "geo": "Global",
+   "hi": false,
+   "head": "Coty reports third-quarter fiscal 2026 results",
+   "sum": "Results for the quarter ended 31 March 2026, with the Consumer Beauty strategic review — covering CoverGirl, Rimmel, Sally Hansen and Max Factor — still running alongside the prestige fragrance business.",
+   "value": "—",
+   "val": 0,
+   "src": "Coty",
+   "srcDate": "May 5",
+   "url": "https://www.coty.com/news/coty-announces-third-quarter-fiscal-year-2026-results",
+   "id": "seed-2026-05-05-https://www.coty.com/news/coty-announces-third-quarter-fiscal-year-2026-results",
+   "ts": 1778000400000,
+   "sources": [
+    {
+     "src": "Coty",
+     "url": "https://www.coty.com/news/coty-announces-third-quarter-fiscal-year-2026-results"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-01",
+   "co": "Estée Lauder",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": true,
+   "head": "Estée Lauder lifts annual profit forecast while cutting up to 3,000 more jobs",
+   "sum": "The company raised its full-year profit outlook and widened its restructuring, now targeting a reduction of 9,000 to 10,000 positions against a prior ceiling of 7,000, as CEO Stéphane de La Faverie pushes the turnaround toward profitability.",
+   "value": "—",
+   "val": 0,
+   "src": "CNBC",
+   "srcDate": "May 1",
+   "url": "https://www.cnbc.com/2026/05/01/estee-lauder-plans-to-cut-up-to-3000-more-jobs-lifts-annual-profit-forecast.html",
+   "id": "seed-2026-05-01-https://www.cnbc.com/2026/05/01/estee-lauder-plans-to-cut-up-to-3000-more-jobs-lifts-annual-profit-forecast.html",
+   "ts": 1777654800000,
+   "sources": [
+    {
+     "src": "CNBC",
+     "url": "https://www.cnbc.com/2026/05/01/estee-lauder-plans-to-cut-up-to-3000-more-jobs-lifts-annual-profit-forecast.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-30",
+   "co": "Unilever",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": false,
+   "head": "Unilever Q1 2026 underlying sales up 3.8%, Beauty & Wellbeing up 3.6%",
+   "sum": "Group underlying sales growth of 3.8% with 2.9% from volume. Beauty & Wellbeing grew 3.6% — 1.9% volume, 1.6% price — on double-digit volume-led growth at Dove and Vaseline plus the prestige portfolio.",
+   "value": "—",
+   "val": 0,
+   "src": "Unilever",
+   "srcDate": "Apr 30",
+   "url": "https://www.investegate.co.uk/announcement/rns/unilever--ulvr/q1-2026-trading-statement/9545280",
+   "id": "seed-2026-04-30-https://www.investegate.co.uk/announcement/rns/unilever--ulvr/q1-2026-trading-statement/9545280",
+   "ts": 1777568400000,
+   "sources": [
+    {
+     "src": "Unilever",
+     "url": "https://www.investegate.co.uk/announcement/rns/unilever--ulvr/q1-2026-trading-statement/9545280"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-29",
+   "co": "Amorepacific",
+   "also": [],
+   "cat": "earn",
+   "sec": "Skincare",
+   "geo": "Asia-Pacific",
+   "hi": false,
+   "head": "Amorepacific Group posts Q1 2026 revenue of KRW1.227tn",
+   "sum": "First-quarter consolidated revenue of KRW1.227tn with operating profit of KRW137.8B, as overseas momentum in the Americas and EMEA continued to offset softness at home.",
+   "value": "—",
+   "val": 0,
+   "src": "Amorepacific",
+   "srcDate": "Apr 29",
+   "url": "https://www.apgroup.com/int/en/news/2026-04-29-1.html",
+   "id": "seed-2026-04-29-https://www.apgroup.com/int/en/news/2026-04-29-1.html",
+   "ts": 1777482000000,
+   "sources": [
+    {
+     "src": "Amorepacific",
+     "url": "https://www.apgroup.com/int/en/news/2026-04-29-1.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-22",
+   "co": "L'Oréal",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": false,
+   "head": "L'Oréal Q1 2026 sales rise 7.6% like-for-like to €12.15B",
+   "sum": "First-quarter sales of €12.15B, up 3.6% reported and 7.6% like-for-like, with adjusted like-for-like growth of 6.7% — comfortably ahead of the global beauty market.",
+   "value": "€12.15B rev",
+   "val": 0,
+   "src": "GlobeNewswire",
+   "srcDate": "Apr 22",
+   "url": "https://www.globenewswire.com/news-release/2026/04/22/3279253/0/en/first-quarter-2026-sales.html",
+   "id": "seed-2026-04-22-https://www.globenewswire.com/news-release/2026/04/22/3279253/0/en/first-quarter-2026-sales.html",
+   "ts": 1776877200000,
+   "sources": [
+    {
+     "src": "GlobeNewswire",
+     "url": "https://www.globenewswire.com/news-release/2026/04/22/3279253/0/en/first-quarter-2026-sales.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-01",
+   "co": "Clorox",
+   "also": [],
+   "cat": "mna",
+   "sec": "Body Care",
+   "geo": "North America",
+   "hi": false,
+   "head": "Clorox completes the GOJO acquisition, forming Clorox Purell",
+   "sum": "The $2.25B purchase closed and now operates as Clorox Purell, adding the Purell franchise and GOJO's health and hygiene solutions to the portfolio.",
+   "value": "—",
+   "val": 0,
+   "src": "Clorox Investor Relations",
+   "srcDate": "Apr 1",
+   "url": "https://investors.thecloroxcompany.com/news/news-details/2026/Clorox-Completes-Acquisition-of-GOJO-Industries-Makers-of-Purell/default.aspx",
+   "id": "seed-2026-04-01-https://investors.thecloroxcompany.com/news/news-details/2026/Clorox-Completes-Acquisition-of-GOJO-Industries-Makers-of-Purell/default.aspx",
+   "ts": 1775062800000,
+   "sources": [
+    {
+     "src": "Clorox Investor Relations",
+     "url": "https://investors.thecloroxcompany.com/news/news-details/2026/Clorox-Completes-Acquisition-of-GOJO-Industries-Makers-of-Purell/default.aspx"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-26",
+   "co": "Henkel",
+   "also": [],
+   "cat": "mna",
+   "sec": "Haircare",
+   "geo": "Europe",
+   "hi": true,
+   "head": "Henkel to acquire Olaplex for $1.4B in a pivot to premium hair care",
+   "sum": "An all-cash offer of $2.06 per share for the bond-building hair care pioneer, a roughly 55% premium to the prior close of $1.33. The deal anchors Henkel's move up-market in professional and prestige hair.",
+   "value": "$1.4B",
+   "val": 1.4,
+   "src": "Henkel",
+   "srcDate": "Mar 26",
+   "url": "https://www.henkel.com/press-and-media/press-releases-and-kits/2026-03-26-henkel-to-acquire-premium-hair-care-brand-olaplex-2136290",
+   "id": "seed-2026-03-26-https://www.henkel.com/press-and-media/press-releases-and-kits/2026-03-26-henkel-to-acquire-premium-hair-care-brand-olaplex-2136290",
+   "ts": 1774544400000,
+   "sources": [
+    {
+     "src": "Henkel",
+     "url": "https://www.henkel.com/press-and-media/press-releases-and-kits/2026-03-26-henkel-to-acquire-premium-hair-care-brand-olaplex-2136290"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-23",
+   "co": "Estée Lauder",
+   "also": [
+    "Puig"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": true,
+   "rumor": true,
+   "head": "Estée Lauder confirms merger discussions with Puig",
+   "sum": "The two confirmed talks over a potential business combination that analysts valued at more than $40B, which would have brought Clinique, MAC and Tom Ford together with Rabanne and Jean Paul Gaultier. No agreement was reached.",
+   "value": "—",
+   "val": 0,
+   "src": "Personal Care Insights",
+   "srcDate": "Mar 23",
+   "url": "https://www.personalcareinsights.com/news/estee-lauder-puig-merger.html",
+   "id": "seed-2026-03-23-https://www.personalcareinsights.com/news/estee-lauder-puig-merger.html",
+   "ts": 1774285200000,
+   "sources": [
+    {
+     "src": "Personal Care Insights",
+     "url": "https://www.personalcareinsights.com/news/estee-lauder-puig-merger.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-12",
+   "co": "Ulta",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": true,
+   "head": "Ulta Beauty posts Q4 and fiscal 2025 results, guides to 6–7% growth in fiscal 2026",
+   "sum": "Fourth-quarter results for the period ended 31 January 2026, alongside fiscal 2026 guidance of 6.0–7.0% net sales growth, 2.5–3.5% comparable sales growth and 9.4–11.4% diluted EPS growth.",
+   "value": "—",
+   "val": 0,
+   "src": "Ulta Beauty Investor Relations",
+   "srcDate": "Mar 12",
+   "url": "https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025",
+   "id": "seed-2026-03-12-https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025",
+   "ts": 1773334800000,
+   "sources": [
+    {
+     "src": "Ulta Beauty Investor Relations",
+     "url": "https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025"
+    }
+   ]
+  },
+  {
+   "date": "2026-02-17",
+   "co": "Kenvue",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": false,
+   "head": "Kenvue reports fourth-quarter and full-year 2025 results",
+   "sum": "Full-year results released without a conference call because of the pending Kimberly-Clark transaction, with Skin Health and Beauty — Neutrogena, Aveeno, OGX — the segment under closest scrutiny ahead of the merger.",
+   "value": "—",
+   "val": 0,
+   "src": "Kenvue Investor Relations",
+   "srcDate": "Feb 17",
+   "url": "https://investors.kenvue.com/financial-news/news-details/2026/Kenvue-to-Announce-Fourth-Quarter-and-Full-Year-2025-Results-on-February-17-2026/default.aspx",
+   "id": "seed-2026-02-17-https://investors.kenvue.com/financial-news/news-details/2026/Kenvue-to-Announce-Fourth-Quarter-and-Full-Year-2025-Results-on-February-17-2026/default.aspx",
+   "ts": 1771347600000,
+   "sources": [
+    {
+     "src": "Kenvue Investor Relations",
+     "url": "https://investors.kenvue.com/financial-news/news-details/2026/Kenvue-to-Announce-Fourth-Quarter-and-Full-Year-2025-Results-on-February-17-2026/default.aspx"
+    }
+   ]
+  },
+  {
+   "date": "2026-02-05",
+   "co": "Estée Lauder",
+   "also": [],
+   "cat": "earn",
+   "sec": "Multi-category",
+   "geo": "Global",
+   "hi": false,
+   "head": "Estée Lauder reports fiscal 2026 second-quarter results",
+   "sum": "Second-quarter results under the turnaround plan, with fragrance the standout and Mainland China outperforming prestige beauty to gain share. Management held to its profit-recovery trajectory.",
+   "value": "—",
+   "val": 0,
+   "src": "The Estée Lauder Companies",
+   "srcDate": "Feb 5",
+   "url": "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/02-05-2026-110042358",
+   "id": "seed-2026-02-05-https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/02-05-2026-110042358",
+   "ts": 1770310800000,
+   "sources": [
+    {
+     "src": "The Estée Lauder Companies",
+     "url": "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/02-05-2026-110042358"
+    }
+   ]
+  },
+  {
+   "date": "2026-02-05",
+   "co": "Coty",
+   "also": [],
+   "cat": "earn",
+   "sec": "Fragrance",
+   "geo": "Global",
+   "hi": false,
+   "head": "Coty reports second-quarter fiscal 2026 results",
+   "sum": "Results for the quarter ended 31 December 2025, with prestige fragrance carrying the group while Consumer Beauty stayed under review following the strategic assessment of the mass colour portfolio.",
+   "value": "—",
+   "val": 0,
+   "src": "Coty",
+   "srcDate": "Feb 5",
+   "url": "https://www.coty.com/news/coty-announces-second-quarter-fiscal-year-2026-results",
+   "id": "seed-2026-02-05-https://www.coty.com/news/coty-announces-second-quarter-fiscal-year-2026-results",
+   "ts": 1770310800000,
+   "sources": [
+    {
+     "src": "Coty",
+     "url": "https://www.coty.com/news/coty-announces-second-quarter-fiscal-year-2026-results"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-29",
+   "co": "Kimberly-Clark",
+   "also": [
+    "Kenvue"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": false,
+   "head": "Kimberly-Clark and Kenvue shareholders overwhelmingly approve the acquisition",
+   "sum": "Both sets of stockholders passed every proposal needed to complete the $48.7B combination at their respective special meetings, clearing the principal shareholder hurdle ahead of a targeted second-half 2026 close.",
+   "value": "—",
+   "val": 0,
+   "src": "Kenvue Investor Relations",
+   "srcDate": "Jan 29",
+   "url": "https://investors.kenvue.com/financial-news/news-details/2026/Kimberly-Clark-and-Kenvue-Shareholders-Overwhelmingly-Approve-Kimberly-Clarks-Acquisition-of-Kenvue/default.aspx",
+   "id": "seed-2026-01-29-https://investors.kenvue.com/financial-news/news-details/2026/Kimberly-Clark-and-Kenvue-Shareholders-Overwhelmingly-Approve-Kimberly-Clarks-Acquisition-of-Kenvue/default.aspx",
+   "ts": 1769706000000,
+   "sources": [
+    {
+     "src": "Kenvue Investor Relations",
+     "url": "https://investors.kenvue.com/financial-news/news-details/2026/Kimberly-Clark-and-Kenvue-Shareholders-Overwhelmingly-Approve-Kimberly-Clarks-Acquisition-of-Kenvue/default.aspx"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-22",
+   "co": "Clorox",
+   "also": [],
+   "cat": "mna",
+   "sec": "Body Care",
+   "geo": "North America",
+   "hi": true,
+   "head": "Clorox to acquire Purell maker GOJO Industries for $2.25B",
+   "sum": "An all-cash definitive agreement for the skin-health and hygiene leader behind Purell. The $2.25B headline includes roughly $330M of anticipated tax benefits, for a net purchase price near $1.92B.",
+   "value": "$2.25B",
+   "val": 2.25,
+   "src": "Clorox Investor Relations",
+   "srcDate": "Jan 22",
+   "url": "https://investors.thecloroxcompany.com/news/news-details/2026/Clorox-Announces-Acquisition-of-GOJO-Industries-Makers-of-Purell-Market-Leader-in-Skin-Health-and-Hygiene/default.aspx",
+   "id": "seed-2026-01-22-https://investors.thecloroxcompany.com/news/news-details/2026/Clorox-Announces-Acquisition-of-GOJO-Industries-Makers-of-Purell-Market-Leader-in-Skin-Health-and-Hygiene/default.aspx",
+   "ts": 1769101200000,
+   "sources": [
+    {
+     "src": "Clorox Investor Relations",
+     "url": "https://investors.thecloroxcompany.com/news/news-details/2026/Clorox-Announces-Acquisition-of-GOJO-Industries-Makers-of-Purell-Market-Leader-in-Skin-Health-and-Hygiene/default.aspx"
+    }
+   ]
+  },
+  {
+   "date": "2025-12-08",
+   "co": "L'Oréal",
+   "also": [
+    "Galderma"
+   ],
+   "cat": "mna",
+   "sec": "Skincare",
+   "geo": "Europe",
+   "hi": true,
+   "head": "L'Oréal doubles Galderma stake to 20% to deepen its aesthetics play",
+   "sum": "L'Oréal buys a further 10% of the Swiss dermatology group from the EQT-led consortium including the Abu Dhabi Investment Authority, taking its holding to 20%. Terms undisclosed; closing expected in Q1 2026, with two L'Oréal board candidates replacing consortium representatives at the 2026 AGM.",
+   "value": "Undisclosed",
+   "val": 0,
+   "src": "L'Oréal Finance",
+   "srcDate": "Dec 8",
+   "url": "https://www.loreal-finance.com/eng/press-release/loreal-groupe-reinforce-its-strategic-investment-galderma-additional-10-bringing-its",
+   "id": "seed-2025-12-08-https://www.loreal-finance.com/eng/press-release/loreal-groupe-reinforce-its-strategic-investment-galderma-additional-10-bringing-its",
+   "ts": 1765213200000,
+   "sources": [
+    {
+     "src": "L'Oréal Finance",
+     "url": "https://www.loreal-finance.com/eng/press-release/loreal-groupe-reinforce-its-strategic-investment-galderma-additional-10-bringing-its"
+    }
+   ]
+  },
+  {
+   "date": "2025-11-02",
+   "co": "Kimberly-Clark",
+   "also": [
+    "Kenvue"
+   ],
+   "cat": "mna",
+   "sec": "Multi-category",
+   "geo": "North America",
+   "hi": true,
+   "head": "Kimberly-Clark to acquire Kenvue for $48.7B, creating a $32B health and wellness leader",
+   "sum": "Cash-and-stock deal valuing Kenvue at $21.01 per share — $3.50 cash plus 0.14625 KMB shares, a roughly 46% premium. The combined group targets about $32B of annual revenue and $7B adjusted EBITDA, with roughly $1.9B of cost synergies over three years and Neutrogena and Aveeno joining the portfolio.",
+   "value": "$48.7B",
+   "val": 48.7,
+   "src": "Kenvue Investor Relations",
+   "srcDate": "Nov 2",
+   "url": "https://investors.kenvue.com/financial-news/news-details/2025/Kimberly-Clark-to-Acquire-Kenvue-Creating-a-32-Billion-Global-Health-and-Wellness-Leader/default.aspx",
+   "id": "seed-2025-11-02-https://investors.kenvue.com/financial-news/news-details/2025/Kimberly-Clark-to-Acquire-Kenvue-Creating-a-32-Billion-Global-Health-and-Wellness-Leader/default.aspx",
+   "ts": 1762102800000,
+   "sources": [
+    {
+     "src": "Kenvue Investor Relations",
+     "url": "https://investors.kenvue.com/financial-news/news-details/2025/Kimberly-Clark-to-Acquire-Kenvue-Creating-a-32-Billion-Global-Health-and-Wellness-Leader/default.aspx"
+    }
+   ]
+  },
+  {
+   "date": "2025-10-19",
+   "co": "L'Oréal",
+   "also": [],
+   "cat": "mna",
+   "sec": "Fragrance",
+   "geo": "Europe",
+   "hi": true,
+   "head": "L'Oréal to buy Kering Beauté including Creed in €4B beauty and wellness alliance",
+   "sum": "L'Oréal's largest acquisition to date: it takes the House of Creed plus 50-year exclusive beauty and fragrance licences for Gucci, Bottega Veneta and Balenciaga, and forms a wellness and longevity venture with Kering. €4B payable in cash at closing, expected in H1 2026; Kering applies proceeds against roughly $11B of debt.",
+   "value": "€4B / $4.7B",
+   "val": 4.7,
+   "src": "L'Oréal Finance",
+   "srcDate": "Oct 19",
+   "url": "https://www.loreal-finance.com/eng/press-release/kering-and-loreal-forge-alliance-beauty-and-wellness",
+   "id": "seed-2025-10-19-https://www.loreal-finance.com/eng/press-release/kering-and-loreal-forge-alliance-beauty-and-wellness",
+   "ts": 1760893200000,
+   "sources": [
+    {
+     "src": "L'Oréal Finance",
+     "url": "https://www.loreal-finance.com/eng/press-release/kering-and-loreal-forge-alliance-beauty-and-wellness"
+    }
+   ]
+  }
+ ],
+ "press": [
+  {
+   "date": "2026-09-01",
+   "outlet": "BeautyMatter",
+   "head": "Trump's Tariff War with Canada Is Coming for Beauty … Again",
+   "sum": "New 50% US tariffs on Canadian goods threaten the beauty industry's integrated North American supply chain, from ingredients to packaging, forcing large corporations and small indie brands alike to choose between absorbing costs, raising prices, or exiting the US market.",
+   "srcDate": "Sep 1",
+   "url": "https://beautymatter.com/articles/trumps-tariff-war-with-canada-is-coming-for-beauty-again",
+   "id": "seed-https://beautymatter.com/articles/trumps-tariff-war-with-canada-is-coming-for-beauty-again",
+   "ts": 1788282000000
+  },
+  {
+   "date": "2026-09-01",
+   "outlet": "BeautyMatter",
+   "head": "Beauty and the Machine: Dyson Pivots to Oral Care With CameraJet",
+   "sum": "Dyson entered oral care with its $499 CameraJet toothbrush, which uses a built-in camera and AI-guided tracking to target gaps between teeth, extending its engineering-led premium positioning beyond haircare.",
+   "srcDate": "Sep 1",
+   "url": "https://beautymatter.com/articles/dyson-takes-on-oral-care-with-cameraJet",
+   "id": "seed-https://beautymatter.com/articles/dyson-takes-on-oral-care-with-cameraJet",
+   "ts": 1788282000000
+  },
+  {
+   "date": "2026-08-30",
+   "outlet": "Beauty Independent",
+   "head": "Scent Beauty Rides Nostalgia And Americana With Ambitious Stetson Gen Z Fragrance Push",
+   "sum": "Scent Beauty is launching the Stetson Untamed fragrance collection targeting Gen Z men, backing the line with $5 million in 2026 marketing spend (rising to ~$10 million in 2027) across 5,000+ retail doors.",
+   "srcDate": "Aug 30",
+   "url": "https://www.beautyindependent.com/scent-beauty-rides-nostalgia-americana-ambitious-stetson-gen-z-fragrance-push/",
+   "id": "seed-https://www.beautyindependent.com/scent-beauty-rides-nostalgia-americana-ambitious-stetson-gen-z-fragrance-push/",
+   "ts": 1788109200000
+  },
+  {
+   "date": "2026-08-28",
+   "outlet": "WWD",
+   "head": "Cottonball Looks to Blends Prescription Efficacy With Luxury in New Skin Care Line",
+   "sum": "The brand’s six-product lineup combines dermatologist-developed, prescription-strength actives with luxury textures and a personalized approach to skin care.",
+   "srcDate": "Aug 28",
+   "url": "https://wwd.com/beauty-industry-news/skin-care/cottonball-prescription-efficacy-luxury-skin-care-line-1239168346/",
+   "id": "seed-https://wwd.com/beauty-industry-news/skin-care/cottonball-prescription-efficacy-luxury-skin-care-line-1239168346/",
+   "ts": 1787936400000
+  },
+  {
+   "date": "2026-08-28",
+   "outlet": "WWD",
+   "head": "EXCLUSIVE: Fara Homidi Dips Into Mascara",
+   "sum": "In a conversation with WWD, the eponymous founder talks category play and slowing the pace of innovation.",
+   "srcDate": "Aug 28",
+   "url": "https://wwd.com/beauty-industry-news/color-cosmetics/fara-homidi-mascara-launch-1239170426/",
+   "id": "seed-https://wwd.com/beauty-industry-news/color-cosmetics/fara-homidi-mascara-launch-1239170426/",
+   "ts": 1787936400000
+  },
+  {
+   "date": "2026-08-28",
+   "outlet": "BeautyMatter",
+   "head": "Indian Skincare Brand Asaya Raises $9.2 Million",
+   "sum": "The Bengaluru-based startup raised a Series A funding round.",
+   "srcDate": "Aug 28",
+   "url": "https://beautymatter.com/articles/indian-skincare-brand-asaya-raises-9-2-million",
+   "id": "seed-https://beautymatter.com/articles/indian-skincare-brand-asaya-raises-9-2-million",
+   "ts": 1787936400000
+  },
+  {
+   "date": "2026-08-28",
+   "outlet": "Beauty Independent",
+   "head": "Fewer Than 5% Of Sephora Brands Are Self-Funded. Here’s How Maed Is Doing It",
+   "sum": "“Onboarding Sephora is like an Olympic sport,” jokes Maed founder Denise Vasi, the actress, model and content creator turned beauty entrepreneur. “You’re jumping in, and you’re learning.” A year into Maed’s run at the beauty specialty retailer, that entrepreneurial athleticism appears to be paying off. The self-funded lip brand, which launched on Sephora.com ... The post Fewer Than 5% Of Sephora B",
+   "srcDate": "Aug 28",
+   "url": "https://www.beautyindependent.com/sephora-brands-self-funded-how-maed-doing-it/",
+   "id": "seed-https://www.beautyindependent.com/sephora-brands-self-funded-how-maed-doing-it/",
+   "ts": 1787936400000
+  },
+  {
+   "date": "2026-08-28",
+   "outlet": "Beauty Independent",
+   "head": "An Anal Douche At Your Local CVS? Future Method Is Taking Butt Care Mainstream",
+   "sum": "Even as Americans have become less permissive about sex in recent years, anal sex products are going mainstream and rolling out to your local drugstore. Future Method, the sexual wellness brand created by anal surgeon Evan Goldstein, owner of Manhattan medical practice Bespoke Surgical, is ... The post An Anal Douche At Your Local CVS? Future Method Is Taking Butt Care Mainstream appeared first on",
+   "srcDate": "Aug 28",
+   "url": "https://www.beautyindependent.com/anal-douche-cvs-future-method-taking-butt-care-mainstream/",
+   "id": "seed-https://www.beautyindependent.com/anal-douche-cvs-future-method-taking-butt-care-mainstream/",
+   "ts": 1787936400000
+  },
+  {
+   "date": "2026-08-27",
+   "outlet": "WWD",
+   "head": "Ulta Beauty Beats Wall Street Expectations, Raises Full-year Forecasts Amid Strong Q2 Performance",
+   "sum": "Bolstered by an 8.9 percent sales increase, international expansion and new initiatives, the beauty retailer raised its outlook for continued growth.",
+   "srcDate": "Aug 27",
+   "url": "https://wwd.com/beauty-industry-news/beauty-features/ulta-beauty-beats-wall-street-expectations-raises-forecasts-1239172914/",
+   "id": "seed-https://wwd.com/beauty-industry-news/beauty-features/ulta-beauty-beats-wall-street-expectations-raises-forecasts-1239172914/",
+   "ts": 1787850000000
+  },
+  {
+   "date": "2026-08-27",
+   "outlet": "WWD",
+   "head": "Estée Lauder Names Kathleen Mitchell Head of New Hair Care Hub Based in London",
+   "sum": "Mitchell will report to Shane Wolf, global brand president, Aveda and hair care brands. She will sit on Lauder's global hair care leadership team and the U.K. and Ireland executive leadership team.",
+   "srcDate": "Aug 27",
+   "url": "https://wwd.com/beauty-industry-news/hair/estee-lauder-kathleen-mitchell-head-new-global-haircare-hub-1239166487/",
+   "id": "seed-https://wwd.com/beauty-industry-news/hair/estee-lauder-kathleen-mitchell-head-new-global-haircare-hub-1239166487/",
+   "ts": 1787850000000
+  },
+  {
+   "date": "2026-08-27",
+   "outlet": "WWD",
+   "head": "Former WeightWatchers CEO Sima Sistani Debuts Fragrance Brand Liberation of Flowers",
+   "sum": "The collection of scents is inspired by Sistani’s Persian roots.",
+   "srcDate": "Aug 27",
+   "url": "https://wwd.com/beauty-industry-news/fragrance/sima-sistani-liberation-of-flowers-debut-1239165028/",
+   "id": "seed-https://wwd.com/beauty-industry-news/fragrance/sima-sistani-liberation-of-flowers-debut-1239165028/",
+   "ts": 1787850000000
+  },
+  {
+   "date": "2026-08-27",
+   "outlet": "WWD",
+   "head": "To Stand Out in a Crowded Skin Care Market, Tatcha Returns to Its Roots",
+   "sum": "Under new CEO Diane Kim, the Japanese skin care brand is undergoing a “refinement,” adding three new ambassadors — Naomi Osaka among them — and leaning deeper into science-based messaging.",
+   "srcDate": "Aug 27",
+   "url": "https://wwd.com/beauty-industry-news/skin-care/tatcha-new-direction-naomi-osaka-skin-care-1239164938/",
+   "id": "seed-https://wwd.com/beauty-industry-news/skin-care/tatcha-new-direction-naomi-osaka-skin-care-1239164938/",
+   "ts": 1787850000000
+  },
+  {
+   "date": "2026-08-27",
+   "outlet": "WWD",
+   "head": "Julien Farel Returns to U.S. Open, Celebrating 18 Years of Styling Tennis Stars",
+   "sum": "From Coco Gauff to Novak Djokovic to Rafael Nadal, Julien Farel and his team bring luxury grooming to the U.S. Open, marking nearly two decades of keeping tennis icons camera-ready.",
+   "srcDate": "Aug 27",
+   "url": "https://wwd.com/beauty-industry-news/hair/julien-farel-us-open-18-years-styling-tennis-stars-1239164626/",
+   "id": "seed-https://wwd.com/beauty-industry-news/hair/julien-farel-us-open-18-years-styling-tennis-stars-1239164626/",
+   "ts": 1787850000000
+  },
+  {
+   "date": "2026-08-27",
+   "outlet": "BeautyMatter",
+   "head": "Target Beauty Studio: Prestige Hits the Bullseye",
+   "sum": "Target Beauty Studio launches with 1,600 products from 90 prestige and emerging brands across 600+ stores, part of a push to blur the line between mass and specialty beauty retail.",
+   "srcDate": "Aug 27",
+   "url": "https://beautymatter.com/articles/target-beauty-studio-prestige-hits-the-bullseye",
+   "id": "seed-https://beautymatter.com/articles/target-beauty-studio-prestige-hits-the-bullseye",
+   "ts": 1787850000000
+  },
+  {
+   "date": "2026-08-27",
+   "outlet": "BeautyMatter",
+   "head": "Beauty Ad Intelligence 2026: What Made a Beauty Ad Last in H1 2026",
+   "sum": "New research reveals why creative, proof, and localization—not audience targeting—are becoming the keys to high-performing beauty ads in the age of Meta AI.",
+   "srcDate": "Aug 27",
+   "url": "https://beautymatter.com/articles/what-beautys-best-ads-reveal",
+   "id": "seed-https://beautymatter.com/articles/what-beautys-best-ads-reveal",
+   "ts": 1787850000000
+  },
+  {
+   "date": "2026-08-27",
+   "outlet": "BeautyMatter",
+   "head": "2026 Week 35: Beauty Brand and Product Launches",
+   "sum": "Featuring news from Ciele, Rizos Curls, and iNNBEAUTY, here’s what caught our editorial team’s attention this week.",
+   "srcDate": "Aug 27",
+   "url": "https://beautymatter.com/articles/2026-week-35-beauty-brand-and-product-launches",
+   "id": "seed-https://beautymatter.com/articles/2026-week-35-beauty-brand-and-product-launches",
+   "ts": 1787850000000
+  },
+  {
+   "date": "2026-08-27",
+   "outlet": "BeautyMatter",
+   "head": "Inside Sungboon Editor’s SoHo Pop-Up",
+   "sum": "Inside Sungboon Editor’s SoHo Pop-Up",
+   "srcDate": "Aug 27",
+   "url": "https://beautymatter.com/articles/inside-sungboon-editors-soho-pop-up",
+   "id": "seed-https://beautymatter.com/articles/inside-sungboon-editors-soho-pop-up",
+   "ts": 1787850000000
+  },
+  {
+   "date": "2026-08-27",
+   "outlet": "BeautyMatter",
+   "head": "Mexican Startup SARELLY Raises $3 Million Bridge Round",
+   "sum": "Mexican Startup SARELLY Raises $3 Million Bridge Round",
+   "srcDate": "Aug 27",
+   "url": "https://beautymatter.com/articles/mexican-startup-sarelly-raises-3-million-bridge-round",
+   "id": "seed-https://beautymatter.com/articles/mexican-startup-sarelly-raises-3-million-bridge-round",
+   "ts": 1787850000000
+  },
+  {
+   "date": "2026-08-27",
+   "outlet": "BeautyMatter",
+   "head": "Shanghai Jahwa Exits Sephora China Joint Venture",
+   "sum": "Shanghai Jahwa Exits Sephora China Joint Venture",
+   "srcDate": "Aug 27",
+   "url": "https://beautymatter.com/articles/shanghai-jahwa-exits-sephora-china-joint-venture",
+   "id": "seed-https://beautymatter.com/articles/shanghai-jahwa-exits-sephora-china-joint-venture",
+   "ts": 1787850000000
+  },
+  {
+   "date": "2026-08-27",
+   "outlet": "BeautyMatter",
+   "head": "Dolly Parton’s Beauty Legacy: How Her Signature Glamour Became a Beauty Brand",
+   "sum": "Dolly Parton’s Beauty Legacy: How Her Signature Glamour Became a Beauty Brand",
+   "srcDate": "Aug 27",
+   "url": "https://beautymatter.com/articles/dolly-parton-dies-at-80",
+   "id": "seed-https://beautymatter.com/articles/dolly-parton-dies-at-80",
+   "ts": 1787850000000
+  },
+  {
+   "date": "2026-08-26",
+   "outlet": "WWD",
+   "head": "EXCLUSIVE: Charlotte Tilbury Unveils Next Chapter of Airbrush Flawless With Jerry Hall, Grace Van Patten and More",
+   "sum": "Designed to blur, bake, brighten and build, the franchise has inaugurated two additions, the Airbrush Flawless Blur Loose Powder and the Airbrush Flawless Blush Blur.",
+   "srcDate": "Aug 26",
+   "url": "https://wwd.com/beauty-industry-news/color-cosmetics/charlotte-tilbury-airbrush-flawless-campaign-1239146519/",
+   "id": "seed-https://wwd.com/beauty-industry-news/color-cosmetics/charlotte-tilbury-airbrush-flawless-campaign-1239146519/",
+   "ts": 1787763600000
+  },
+  {
+   "date": "2026-08-26",
+   "outlet": "WWD",
+   "head": "Bath &#038; Body Works Topped Wall Street Sales Estimates in Q2, but Is Still Not Getting Enough Consumers Through Its Doors",
+   "sum": "Sales slipped by 2.3 percent in the second quarter, with digital sales returning to growth for the first time since 2021, while in-store sales declined.",
+   "srcDate": "Aug 26",
+   "url": "https://wwd.com/beauty-industry-news/beauty-features/bath-body-works-topped-wall-street-sales-estimates-q2-1239164496/",
+   "id": "seed-https://wwd.com/beauty-industry-news/beauty-features/bath-body-works-topped-wall-street-sales-estimates-q2-1239164496/",
+   "ts": 1787763600000
+  },
+  {
+   "date": "2026-08-26",
+   "outlet": "WWD",
+   "head": "PDC Brands Rebrands as Arthēa",
+   "sum": "Under the Arthēa name, the parent company of Dr Teal’s, Cantu, Bodycology and Sunryz is sharpening its focus on making wellness and personal care accessible to more people.",
+   "srcDate": "Aug 26",
+   "url": "https://wwd.com/beauty-industry-news/beauty-features/pdc-brands-rebrands-arthea-1239164065/",
+   "id": "seed-https://wwd.com/beauty-industry-news/beauty-features/pdc-brands-rebrands-arthea-1239164065/",
+   "ts": 1787763600000
+  },
+  {
+   "date": "2026-08-26",
+   "outlet": "WWD",
+   "head": "The Artistry-led Makeup Brand Target Is Betting On Next",
+   "sum": "Kim Baker's Glamazon Beauty will bow at the retailer as part of Target's plan to make it in prestige beauty on its own.",
+   "srcDate": "Aug 26",
+   "url": "https://wwd.com/beauty-industry-news/color-cosmetics/target-celebrity-makeup-brand-kim-baker-glamazon-beauty-1239149214/",
+   "id": "seed-https://wwd.com/beauty-industry-news/color-cosmetics/target-celebrity-makeup-brand-kim-baker-glamazon-beauty-1239149214/",
+   "ts": 1787763600000
+  },
+  {
+   "date": "2026-08-26",
+   "outlet": "WWD",
+   "head": "Old Navy Rolls Out Beauty Offering Nationwide With Private Label Line and Third-party Brand Assortment",
+   "sum": "Old Navy rolls out its beauty concept to 1,000 stores and online, featuring Old Navy Beauty Co. line and third-party brand offerings.",
+   "srcDate": "Aug 26",
+   "url": "https://wwd.com/beauty-industry-news/beauty-features/old-navy-expands-beauty-offering-nationwide-1239149092/",
+   "id": "seed-https://wwd.com/beauty-industry-news/beauty-features/old-navy-expands-beauty-offering-nationwide-1239149092/",
+   "ts": 1787763600000
+  },
+  {
+   "date": "2026-08-26",
+   "outlet": "BeautyMatter",
+   "head": "100 Days to Ulta Beauty: Soshe’s Launch Playbook",
+   "sum": "100 Days to Ulta Beauty: Soshe’s Launch Playbook",
+   "srcDate": "Aug 26",
+   "url": "https://beautymatter.com/articles/soshe-ulta-beauty-launch",
+   "id": "seed-https://beautymatter.com/articles/soshe-ulta-beauty-launch",
+   "ts": 1787763600000
+  },
+  {
+   "date": "2026-08-26",
+   "outlet": "BeautyMatter",
+   "head": "KKR Acquires Leading Japanese Beauty Platform Ci Flavors",
+   "sum": "KKR Acquires Leading Japanese Beauty Platform Ci Flavors",
+   "srcDate": "Aug 26",
+   "url": "https://beautymatter.com/articles/kkr-acquires-leading-japanese-beauty-platform-ci-flavors",
+   "id": "seed-https://beautymatter.com/articles/kkr-acquires-leading-japanese-beauty-platform-ci-flavors",
+   "ts": 1787763600000
+  },
+  {
+   "date": "2026-08-26",
+   "outlet": "BeautyMatter",
+   "head": "Regent to Acquire Avon North America from LG H&H",
+   "sum": "Regent to Acquire Avon North America from LG H&H",
+   "srcDate": "Aug 26",
+   "url": "https://beautymatter.com/articles/regent-to-acquire-avon-north-america-from-lg-hh",
+   "id": "seed-https://beautymatter.com/articles/regent-to-acquire-avon-north-america-from-lg-hh",
+   "ts": 1787763600000
+  },
+  {
+   "date": "2026-08-26",
+   "outlet": "Beauty Independent",
+   "head": "Men Are Spritzing, Slathering And Sculpting. Talons Believes Press-On Nails Are Next.",
+   "sum": "Henry Lee, who invented Lee Press-On Nails in the 1980s, was a man, and like most products in the beauty industry invented by men, his were aimed squarely (or roundly, ovally, almondly or stiletto-pointedly) at women. The brand’s researchers even measured the nails of more than 1,000 women to determine their size and shape. ... The post Men Are Spritzing, Slathering And Sculpting. Talons Believes ",
+   "srcDate": "Aug 26",
+   "url": "https://www.beautyindependent.com/men-talons-press-on-nails/",
+   "id": "seed-https://www.beautyindependent.com/men-talons-press-on-nails/",
+   "ts": 1787763600000
+  },
+  {
+   "date": "2026-08-26",
+   "outlet": "Beauty Independent",
+   "head": "“A Country Girl’s Idea Of Glam”: Dolly Parton’s Real (And Fake) Beauty Legacy",
+   "sum": "The irony of Dolly Parton’s first charting hit, &#8220;Dumb Blonde,&#8221; is unmistakable. The lyrics she sang dripped with it—&#8221;Just because I’m blonde, don’t think I’m dumb / ‘Cause this dumb blonde ain’t nobody’s fool&#8221;—and her life, which ended Tuesday in Nashville at the age of 80 after a brief battle with cancer, was evidence ... The post “A Country Girl’s Idea Of Glam”: Dolly Par",
+   "srcDate": "Aug 26",
+   "url": "https://www.beautyindependent.com/dolly-parton-beauty-legacy/",
+   "id": "seed-https://www.beautyindependent.com/dolly-parton-beauty-legacy/",
+   "ts": 1787763600000
+  },
+  {
+   "date": "2026-08-26",
+   "outlet": "Beauty Independent",
+   "head": "Target Is Taking Beauty Upmarket Without Ulta. Will Its Shoppers Follow?",
+   "sum": "Beauty Independent examines Target's new upscale in-store beauty concept, launched after winding down its Ulta partnership, and whether value-focused shoppers will trade up to prestige products.",
+   "srcDate": "Aug 26",
+   "url": "https://www.beautyindependent.com/target-beauty-upmarket-studio-mass-shoppers/",
+   "id": "seed-https://www.beautyindependent.com/target-beauty-upmarket-studio-mass-shoppers/",
+   "ts": 1787763600000
+  },
+  {
+   "date": "2026-08-25",
+   "outlet": "BeautyMatter",
+   "head": "Navigating the K-Shaped Consumer Landscape",
+   "sum": "Navigating the K-Shaped Consumer Landscape",
+   "srcDate": "Aug 25",
+   "url": "https://beautymatter.com/articles/the-k-shaped-economy-is-reshaping-beauty",
+   "id": "seed-https://beautymatter.com/articles/the-k-shaped-economy-is-reshaping-beauty",
+   "ts": 1787677200000
+  },
+  {
+   "date": "2026-08-25",
+   "outlet": "BeautyMatter",
+   "head": "Why Global Fragrance Giants Are Investing Heavily in the Gulf Region",
+   "sum": "Why Global Fragrance Giants Are Investing Heavily in the Gulf Region",
+   "srcDate": "Aug 25",
+   "url": "https://beautymatter.com/articles/givaudan-fragrance-is-part-of-the-culture-in-the-gulf",
+   "id": "seed-https://beautymatter.com/articles/givaudan-fragrance-is-part-of-the-culture-in-the-gulf",
+   "ts": 1787677200000
+  },
+  {
+   "date": "2026-08-25",
+   "outlet": "BeautyMatter",
+   "head": "How Peach & Lily Helped Build K-Beauty’s US Success Story",
+   "sum": "How Peach & Lily Helped Build K-Beauty’s US Success Story",
+   "srcDate": "Aug 25",
+   "url": "https://beautymatter.com/articles/alicia-yoon-peach-and-lily-k-beauty",
+   "id": "seed-https://beautymatter.com/articles/alicia-yoon-peach-and-lily-k-beauty",
+   "ts": 1787677200000
+  },
+  {
+   "date": "2026-08-25",
+   "outlet": "BeautyMatter",
+   "head": "How AI Is Reshaping Beauty Brand Discovery and Consumer Recommendations",
+   "sum": "How AI Is Reshaping Beauty Brand Discovery and Consumer Recommendations",
+   "srcDate": "Aug 25",
+   "url": "https://beautymatter.com/articles/the-beauty-brands-that-are-ruling-ai",
+   "id": "seed-https://beautymatter.com/articles/the-beauty-brands-that-are-ruling-ai",
+   "ts": 1787677200000
+  },
+  {
+   "date": "2026-08-25",
+   "outlet": "BeautyMatter",
+   "head": "US Spa Industry Revenue Hits Record $23.5 Billion as Visits Rise",
+   "sum": "US Spa Industry Revenue Hits Record $23.5 Billion as Visits Rise",
+   "srcDate": "Aug 25",
+   "url": "https://beautymatter.com/articles/the-us-spa-industry-reaches-record-23-5-billion",
+   "id": "seed-https://beautymatter.com/articles/the-us-spa-industry-reaches-record-23-5-billion",
+   "ts": 1787677200000
+  },
+  {
+   "date": "2026-08-25",
+   "outlet": "BeautyMatter",
+   "head": "Beauty Retail Expansion: Sephora, Ulta, Walmart, and Costco Drive August Growth",
+   "sum": "Beauty Retail Expansion: Sephora, Ulta, Walmart, and Costco Drive August Growth",
+   "srcDate": "Aug 25",
+   "url": "https://beautymatter.com/articles/retail-watch-who-launched-where-in-july-2026",
+   "id": "seed-https://beautymatter.com/articles/retail-watch-who-launched-where-in-july-2026",
+   "ts": 1787677200000
+  },
+  {
+   "date": "2026-08-25",
+   "outlet": "Beauty Independent",
+   "head": "TowerBrook Invests In Rael As Period Care Challenger Eyes Bigger Share Of The Market",
+   "sum": "TowerBrook Capital Partners made an investment (terms undisclosed) in Rael, a premium period-care brand founded in 2017, to help it scale across retail channels and geographies against legacy feminine-hygiene incumbents.",
+   "srcDate": "Aug 25",
+   "url": "https://www.beautyindependent.com/towerbrook-invests-rael-period-care-challenger/",
+   "id": "seed-https://www.beautyindependent.com/towerbrook-invests-rael-period-care-challenger/",
+   "ts": 1787677200000
+  },
+  {
+   "date": "2026-08-25",
+   "outlet": "Beauty Independent",
+   "head": "Curology Overhauls Agency With Skin Longevity Focus And Big Growth Ambitions",
+   "sum": "More than five years after Curology launched Agency as an anti-aging brand, it’s been overhauled under new leadership to bring it into the longevity age and dramatically scale the business. Agency has been a key early priority for Kathy Savitt, who became CEO of Curology in June last year after the company ... The post Curology Overhauls Agency With Skin Longevity Focus And Big Growth Ambitions ap",
+   "srcDate": "Aug 25",
+   "url": "https://www.beautyindependent.com/curology-overhauls-agency-skin-longevity-focus-big-growth-ambitions/",
+   "id": "seed-https://www.beautyindependent.com/curology-overhauls-agency-skin-longevity-focus-big-growth-ambitions/",
+   "ts": 1787677200000
+  },
+  {
+   "date": "2026-08-25",
+   "outlet": "Beauty Independent",
+   "head": "Dr. Forhair Lands At Sephora As K-Beauty’s Haircare Wave Builds",
+   "sum": "Sephora’s Seoul searching for beauty hits continues. The beauty speciality retailer has launched bestselling South Korean scalp health brand Dr. Forhair into over 200 Sephora stores today with six products from its Folligen range, including its hero offering, $24 Folligen Thickening Shampoo and Folligen ... The post Dr. Forhair Lands At Sephora As K-Beauty’s Haircare Wave Builds appeared first on ",
+   "srcDate": "Aug 25",
+   "url": "https://www.beautyindependent.com/dr-forhair-sephora-k-beauty-haircare/",
+   "id": "seed-https://www.beautyindependent.com/dr-forhair-sephora-k-beauty-haircare/",
+   "ts": 1787677200000
+  },
+  {
+   "date": "2026-08-20",
+   "outlet": "BeautyMatter",
+   "head": "Phoenix Rising: Estée Lauder Goes Indie Mode, Beating Estimates and Ending 3-Year Slump",
+   "sum": "Analysis of Estée Lauder's FY2026 results, crediting the return to growth to restructuring, regional autonomy in China, and a focus on skincare and fragrance over large-scale M&A.",
+   "srcDate": "Aug 20",
+   "url": "https://beautymatter.com/articles/estee-lauder-goes-indie-mode",
+   "id": "seed-https://beautymatter.com/articles/estee-lauder-goes-indie-mode",
+   "ts": 1787245200000
+  },
+  {
+   "date": "2026-08-20",
+   "outlet": "BeautyMatter",
+   "head": "Reddit's Communities Are Rewriting Beauty Trends",
+   "sum": "Beauty product discovery is shifting from influencer-led trends toward peer recommendations inside Reddit communities, pushing brands toward more personalized, less one-size-fits-all guidance.",
+   "srcDate": "Aug 20",
+   "url": "https://beautymatter.com/articles/reddits-communities-are-rewriting-beauty-trends",
+   "id": "seed-https://beautymatter.com/articles/reddits-communities-are-rewriting-beauty-trends",
+   "ts": 1787245200000
+  },
+  {
+   "date": "2026-07-30",
+   "outlet": "Beauty Independent",
+   "head": "TSG Acquires Buzzy Body Care Brand Saltair, Extending The Center's Winning Streak",
+   "sum": "TSG Consumer acquired a majority stake in body care brand Saltair from beauty incubator The Center, another exit for the brand-building platform. Saltair is projected at roughly $150M in sales this year with a 30% EBITDA margin.",
+   "srcDate": "Jul 30",
+   "url": "https://www.beautyindependent.com/tsg-acquires-buzzy-body-care-brand-saltair-extending-the-centers-winning-streak/",
+   "id": "seed-https://www.beautyindependent.com/tsg-acquires-buzzy-body-care-brand-saltair-extending-the-centers-winning-streak/",
+   "ts": 1785430800000
+  }
+ ]
+}

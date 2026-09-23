@@ -1,0 +1,11 @@
+{
+  "name": "Daily Beauty News",
+  "short_name": "Beauty News",
+  "description": "Live beauty-industry deal intelligence.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

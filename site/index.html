@@ -1,0 +1,960 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}</style></head><body>
+<title>Daily Beauty News</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Live beauty-industry deal intelligence: M&A, funding, earnings and partnerships, swept every few minutes.">
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Beauty News">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+/* ─────────────────────────────────────────────────────────────
+   Daily Beauty News — deal intelligence
+   Design language adapted from L'Oréal Groupe: stark black on white,
+   geometric sans, square corners, multi-column card grid, and a
+   finance-forward ticker rail. Colour comes from data, not decoration.
+   ───────────────────────────────────────────────────────────── */
+:root{
+  --paper:#FFFFFF;
+  --surface:#FFFFFF;
+  --fill:#F5F5F4;
+  --ink:#000000;
+  --ink-2:#5C5C5C;
+  --ink-3:#8A8A8A;
+  --line:#E3E3E1;
+  --rule:#000000;
+  --invert-bg:#000000;
+  --invert-ink:#FFFFFF;
+  --up:#0F6B41;
+  --down:#B3202E;
+  --geo:Futura,"Avenir Next",Avenir,"Century Gothic","URW Gothic","Trebuchet MS",sans-serif;
+  --sans:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#0B0B0B; --surface:#131313; --fill:#191919;
+    --ink:#FFFFFF; --ink-2:#ABABAB; --ink-3:#7E7E7E;
+    --line:#2A2A2A; --rule:#FFFFFF;
+    --invert-bg:#FFFFFF; --invert-ink:#000000;
+    --up:#5FBF8E; --down:#E8737F;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0B0B0B; --surface:#131313; --fill:#191919;
+  --ink:#FFFFFF; --ink-2:#ABABAB; --ink-3:#7E7E7E;
+  --line:#2A2A2A; --rule:#FFFFFF;
+  --invert-bg:#FFFFFF; --invert-ink:#000000;
+  --up:#5FBF8E; --down:#E8737F;
+}
+:root[data-theme="light"]{
+  --paper:#FFFFFF; --surface:#FFFFFF; --fill:#F5F5F4;
+  --ink:#000000; --ink-2:#5C5C5C; --ink-3:#8A8A8A;
+  --line:#E3E3E1; --rule:#000000;
+  --invert-bg:#000000; --invert-ink:#FFFFFF;
+  --up:#0F6B41; --down:#B3202E;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:15px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+.wrap{max-width:1280px;margin:0 auto;padding:0 36px 88px}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+
+/* ─── Ticker rail: inverted, finance-forward (L'Oréal homepage cue) ─── */
+.ticker{
+  background:var(--invert-bg);color:var(--invert-ink);
+  overflow:hidden;white-space:nowrap;border-bottom:1px solid var(--invert-bg);
+}
+.ticker-track{display:inline-flex;align-items:center;will-change:transform;animation:slide 46s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker-item{
+  display:inline-flex;align-items:baseline;gap:10px;
+  padding:11px 0;margin-right:44px;
+  font-family:var(--geo);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+}
+.ticker-item .tk-co{font-weight:700}
+.ticker-item .tk-v{font-family:var(--mono);letter-spacing:.04em;font-size:11.5px;opacity:.95}
+.ticker-item .tk-v.up{color:var(--up)}
+.ticker-item .tk-v.down{color:var(--down)}
+.ticker-sep{opacity:.4;margin-right:44px}
+@keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ─── Masthead ─── */
+.masthead{
+  display:flex;align-items:flex-end;justify-content:space-between;
+  gap:36px;flex-wrap:wrap;padding:46px 0 20px;
+  border-bottom:2px solid var(--rule);
+}
+.brand{max-width:60ch}
+.eyebrow{
+  font-family:var(--geo);font-size:10px;letter-spacing:.32em;
+  text-transform:uppercase;font-weight:700;color:var(--ink-2);
+}
+.logo{
+  font-family:var(--geo);font-weight:500;
+  font-size:clamp(36px,5.6vw,60px);line-height:.98;
+  letter-spacing:-.015em;margin:14px 0 0;text-transform:uppercase;text-wrap:balance;
+}
+.brand .tag{color:var(--ink-2);font-size:14px;margin:14px 0 0;max-width:54ch}
+.status{
+  display:flex;align-items:center;gap:9px;flex:none;padding-bottom:6px;
+  font-family:var(--geo);font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-2);
+}
+.status .dot{width:6px;height:6px;background:var(--ink);flex:none;animation:blink 2.6s ease-in-out infinite}
+.status.stale,.status.stale b{color:var(--down)}
+.status.stale .dot{background:var(--down)}
+.srcline .more{color:var(--ink-3)}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.status b{color:var(--ink);font-weight:700}
+
+/* ─── KPI band ─── */
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}
+.kpi{padding:26px 28px 24px;border-left:1px solid var(--line)}
+.kpi:first-child{border-left:0;padding-left:0}
+.kpi .fig{
+  font-family:var(--mono);font-size:32px;line-height:1;
+  letter-spacing:-.03em;font-variant-numeric:tabular-nums;
+}
+.kpi .lab{
+  margin-top:14px;font-family:var(--geo);font-size:10px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--ink);font-weight:700;
+}
+.kpi .sub{margin-top:5px;color:var(--ink-3);font-size:11.5px}
+
+/* ─── Sticky filter bar ─── */
+.toolbar{
+  position:sticky;top:0;z-index:20;background:var(--paper);
+  border-bottom:1px solid var(--line);margin-bottom:6px;
+}
+.filt{display:flex;flex-direction:column;gap:9px;padding:14px 0}
+.filt-row{display:flex;flex-wrap:wrap;align-items:center;gap:7px}
+.filt-lab{
+  font-family:var(--geo);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:700;width:64px;flex:none;
+}
+.pill{
+  border:1px solid var(--line);background:transparent;border-radius:0;
+  padding:7px 14px;font-family:var(--geo);font-size:10.5px;letter-spacing:.12em;
+  text-transform:uppercase;font-weight:600;color:var(--ink-2);cursor:pointer;
+  transition:background .15s,color .15s,border-color .15s;
+  display:inline-flex;align-items:center;gap:7px;
+}
+.pill:hover:not(:disabled){border-color:var(--ink);color:var(--ink)}
+.pill[aria-pressed="true"]{background:var(--invert-bg);color:var(--invert-ink);border-color:var(--invert-bg)}
+.pill .n{font-family:var(--mono);font-size:10px;letter-spacing:0;opacity:.7;font-variant-numeric:tabular-nums}
+.pill:disabled{opacity:.3;cursor:default}
+.selwrap{position:relative;display:inline-flex}
+.selwrap select{
+  appearance:none;background:transparent;border:1px solid var(--line);border-radius:0;
+  font-family:var(--geo);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  font-weight:600;color:var(--ink);padding:8px 30px 8px 14px;cursor:pointer;
+}
+.selwrap::after{
+  content:"";position:absolute;right:13px;top:50%;width:5px;height:5px;margin-top:-4px;
+  border-right:1.5px solid var(--ink-3);border-bottom:1.5px solid var(--ink-3);
+  transform:rotate(45deg);pointer-events:none;
+}
+.searchbox{
+  flex:1;min-width:210px;display:flex;align-items:center;gap:9px;
+  border:1px solid var(--line);padding:7px 14px;
+}
+.searchbox:focus-within{border-color:var(--ink)}
+.searchbox svg{color:var(--ink-3);flex:none}
+.searchbox input{border:0;background:none;font:inherit;font-size:13px;color:var(--ink);outline:none;width:100%}
+.searchbox input::placeholder{color:var(--ink-3)}
+.reset{
+  margin-left:auto;background:none;border:0;font-family:var(--geo);font-size:10px;
+  letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--ink);
+  cursor:pointer;text-decoration:underline;text-underline-offset:4px;padding:4px 2px;
+}
+.reset[hidden]{display:none}
+
+/* ─── Section heads ─── */
+.sec-head{
+  display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;
+  margin:52px 0 0;padding-bottom:11px;border-bottom:2px solid var(--rule);
+}
+.sec-head h2{
+  font-family:var(--geo);font-weight:500;font-size:23px;margin:0;
+  letter-spacing:.02em;text-transform:uppercase;
+}
+.sec-head .meta{
+  font-family:var(--geo);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:700;margin-left:auto;
+}
+.count{color:var(--ink-2);font-size:12.5px;margin:13px 0 20px;font-variant-numeric:tabular-nums}
+
+/* ─── Live feed: multi-column card grid ─── */
+.feed{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:1px;background:var(--line)}
+.card{
+  background:var(--surface);border:0;border-radius:0;
+  padding:26px 26px 22px;display:flex;flex-direction:column;
+  transition:background .18s;
+}
+.card:hover{background:var(--fill)}
+.card.hi{background:var(--fill)}
+.card.hi:hover{background:var(--line)}
+.tags{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:14px}
+.tag-sec{
+  font-family:var(--geo);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;
+  font-weight:700;color:var(--ink);
+}
+.tag-dot{width:2.5px;height:2.5px;background:var(--ink-3);flex:none}
+.tag-m{
+  font-family:var(--geo);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:600;
+}
+.tag-major{
+  font-family:var(--geo);font-size:9px;letter-spacing:.18em;text-transform:uppercase;
+  font-weight:700;color:var(--invert-ink);background:var(--invert-bg);padding:3px 9px;
+}
+.tag-rep{
+  font-family:var(--geo);font-size:9px;letter-spacing:.16em;text-transform:uppercase;
+  font-weight:700;color:var(--down);border:1px solid var(--down);padding:2px 8px;
+}
+.when{
+  margin-left:auto;font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-3);
+}
+.when.today{color:var(--ink);font-weight:700}
+.headline{
+  font-family:var(--geo);font-weight:500;font-size:20px;line-height:1.22;
+  margin:0;letter-spacing:-.012em;text-wrap:balance;
+}
+.company{
+  font-family:var(--geo);font-size:10.5px;font-weight:700;letter-spacing:.18em;
+  text-transform:uppercase;margin:14px 0 9px;color:var(--ink);
+}
+.company .also{color:var(--ink-3);font-weight:500;letter-spacing:.08em}
+.card-sum{color:var(--ink-2);font-size:13.5px;margin:0;line-height:1.62}
+.card-foot{
+  display:flex;align-items:baseline;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  margin-top:auto;padding-top:18px;
+}
+.card-sum+.card-foot{margin-top:18px}
+.amount{
+  font-family:var(--mono);font-size:20px;letter-spacing:-.03em;
+  font-variant-numeric:tabular-nums;line-height:1;
+}
+.amount.na{font-family:var(--sans);font-size:12px;color:var(--ink-3)}
+.srcline{display:flex;align-items:center;gap:12px;font-size:10.5px;color:var(--ink-3)}
+.srcline .ver{
+  font-family:var(--geo);letter-spacing:.1em;text-transform:uppercase;
+  font-weight:700;color:var(--ink-2);
+}
+.srcline a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--ink-3);padding-bottom:1px}
+.srcline a:hover{color:var(--ink);border-color:var(--ink)}
+
+/* ─── Archive table ─── */
+.tablewrap{overflow-x:auto;border-top:1px solid var(--line)}
+table.arch{width:100%;border-collapse:collapse;font-size:13px;min-width:760px}
+table.arch th{
+  text-align:left;font-family:var(--geo);font-size:9px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--ink-3);font-weight:700;
+  padding:13px 18px 13px 0;border-bottom:1px solid var(--line);white-space:nowrap;
+}
+table.arch th:last-child{text-align:right;padding-right:0}
+table.arch td{padding:16px 18px 16px 0;border-bottom:1px solid var(--line);vertical-align:top}
+table.arch td:last-child{padding-right:0}
+table.arch tr:last-child td{border-bottom:0}
+table.arch tr:hover td{background:var(--fill)}
+.t-date{font-family:var(--mono);font-size:11px;color:var(--ink-3);white-space:nowrap}
+.t-co{
+  font-family:var(--geo);font-weight:700;font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;white-space:nowrap;
+}
+.t-sec{
+  font-family:var(--geo);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:700;white-space:nowrap;
+}
+.t-head{color:var(--ink);line-height:1.45;min-width:280px}
+.t-head a{text-decoration:none;border-bottom:1px solid var(--line)}
+.t-head a:hover{border-color:var(--ink)}
+.t-val{font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+.t-val.na{font-family:var(--sans);font-size:11px;color:var(--ink-3)}
+
+.empty{
+  border:1px dashed var(--line);padding:38px 24px;text-align:center;
+  color:var(--ink-3);font-size:13px;grid-column:1/-1;background:var(--surface);
+}
+
+/* ─── Method note ─── */
+.note{
+  margin-top:32px;padding:24px 26px;background:var(--fill);
+  color:var(--ink-2);font-size:12.5px;line-height:1.75;
+}
+.note b{color:var(--ink);font-weight:700}
+
+/* ─── Houses ─── */
+.houses{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1px;background:var(--line)}
+.house{
+  background:var(--surface);border:0;border-radius:0;padding:13px 15px;
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  cursor:pointer;font:inherit;text-align:left;transition:background .15s;
+}
+.house:hover{background:var(--fill)}
+.house[aria-current="true"]{background:var(--invert-bg)}
+.house[aria-current="true"] .hn,.house[aria-current="true"] .hc{color:var(--invert-ink)}
+.house .hn{
+  font-family:var(--geo);font-size:10.5px;font-weight:700;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink);
+}
+.house .hc{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.house.on .hc{color:var(--ink);font-weight:700}
+.house.quiet .hn{color:var(--ink-3)}
+.press-divider{
+  grid-column:1/-1;background:var(--paper);padding:16px 15px 6px;
+  font-family:var(--geo);font-size:9px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:700;border-top:2px solid var(--rule);
+}
+.house.press{background:var(--surface)}
+.house.press .hn::after{
+  content:"Press";margin-left:8px;font-size:8.5px;letter-spacing:.14em;
+  color:var(--ink-3);font-weight:600;
+}
+.house.press[aria-current="true"] .hn::after{color:var(--invert-ink);opacity:.7}
+
+/* ─── Trade press cards: lighter than a deal card — no value, no category ─── */
+.press-card{
+  background:var(--surface);border:0;padding:22px 24px 20px;
+  display:flex;flex-direction:column;transition:background .18s;
+}
+.press-card:hover{background:var(--fill)}
+.press-card .tags{margin-bottom:12px}
+.press-card .headline{font-size:17px}
+.press-card .card-sum{font-size:13px}
+.press-card .card-foot{padding-top:14px}
+
+.colophon{
+  margin-top:52px;padding-top:22px;border-top:2px solid var(--rule);
+  color:var(--ink-3);font-size:10.5px;line-height:2;
+  font-family:var(--geo);letter-spacing:.08em;
+}
+
+/* ─── Company dossier: rolling 12-month record, opened from any house ─── */
+.tk-age{
+  font-family:var(--geo);font-size:9px;letter-spacing:.16em;text-transform:uppercase;
+  opacity:.6;padding-left:2px;
+}
+.co-link{
+  background:none;border:0;padding:0;font:inherit;color:inherit;cursor:pointer;
+  text-decoration:underline;text-decoration-style:dotted;text-underline-offset:4px;
+  text-decoration-color:var(--ink-3);min-height:32px;
+}
+.co-link:hover{text-decoration-style:solid;text-decoration-color:var(--ink)}
+/* A company name is the way in to its 12-month record: solid underline plus a
+   pointer, so the affordance reads without needing a separate button. */
+.co-link{text-decoration-color:var(--ink-2)}
+.dossier[hidden]{display:none}
+.dossier{position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;padding:24px}
+.dossier-scrim{position:absolute;inset:0;background:rgba(0,0,0,.55);backdrop-filter:blur(2px)}
+.dossier-panel{
+  position:relative;background:var(--paper);border:1px solid var(--rule);
+  width:min(880px,100%);max-height:88vh;display:flex;flex-direction:column;
+  box-shadow:0 24px 64px rgba(0,0,0,.28);
+}
+.dossier-head{
+  display:flex;align-items:flex-start;gap:20px;padding:26px 28px 18px;
+  border-bottom:2px solid var(--rule);
+}
+.dossier-name{
+  font-family:var(--geo);font-weight:500;font-size:clamp(24px,3.4vw,34px);
+  margin:10px 0 0;letter-spacing:-.01em;text-transform:uppercase;line-height:1;
+}
+.dossier-sub{margin:10px 0 0;color:var(--ink-2);font-size:13px}
+.dossier-x{
+  margin-left:auto;flex:none;background:none;border:1px solid var(--line);
+  width:34px;height:34px;cursor:pointer;color:var(--ink);font-size:15px;line-height:1;
+}
+.dossier-x:hover{background:var(--invert-bg);color:var(--invert-ink);border-color:var(--invert-bg)}
+.dossier-stats{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}
+.dstat{padding:16px 20px;border-left:1px solid var(--line)}
+.dstat:first-child{border-left:0}
+.dstat .f{font-family:var(--mono);font-size:20px;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.dstat .l{
+  margin-top:7px;font-family:var(--geo);font-size:9px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-3);font-weight:700;
+}
+.dossier-actions{display:flex;gap:8px;flex-wrap:wrap;padding:14px 28px;border-bottom:1px solid var(--line)}
+.dossier-body{overflow-y:auto;padding:6px 28px 28px}
+.dmonth{
+  font-family:var(--geo);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;
+  font-weight:700;color:var(--ink-3);padding:22px 0 10px;border-bottom:1px solid var(--line);
+}
+.ditem{display:flex;gap:18px;padding:16px 0;border-bottom:1px solid var(--line)}
+.ditem:last-child{border-bottom:0}
+.dwhen{
+  font-family:var(--mono);font-size:11px;color:var(--ink-3);white-space:nowrap;
+  width:96px;flex:none;padding-top:2px;
+}
+.dmain{flex:1;min-width:0}
+.dhead{font-size:14.5px;line-height:1.45;margin:0}
+.dhead a{text-decoration:none;border-bottom:1px solid var(--line)}
+.dhead a:hover{border-color:var(--ink)}
+.dmeta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:8px}
+.dmeta span{
+  font-family:var(--geo);font-size:9px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:700;
+}
+.dval{font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right;flex:none}
+.dval.na{font-family:var(--sans);font-size:11px;color:var(--ink-3)}
+
+@media (max-width:640px){
+  .dossier{padding:0}
+  .dossier-panel{max-height:100vh;height:100%;width:100%;border:0}
+  .dossier-stats{grid-template-columns:1fr 1fr}
+  .dstat:nth-child(3){border-left:0}
+  .dstat:nth-child(n+3){border-top:1px solid var(--line)}
+  .dossier-head,.dossier-actions,.dossier-body{padding-left:18px;padding-right:18px}
+  /* Stack the row: a long value ("50-year licence") must not squeeze the headline
+     into a two-word column or run under the panel edge. */
+  .ditem{flex-direction:column;gap:7px}
+  .dwhen{width:auto;padding-top:0}
+  .dval,.dval.na{text-align:left;white-space:normal;font-size:12.5px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;animation:none!important}
+  .ticker-track{transform:none!important}
+}
+@media (max-width:900px){
+  .kpis{grid-template-columns:1fr 1fr}
+  .kpi{padding:20px}
+  .kpi:first-child,.kpi:nth-child(3){border-left:0;padding-left:0}
+  .kpi:nth-child(n+3){border-top:1px solid var(--line)}
+}
+@media (max-width:640px){
+  .wrap{padding:0 18px 64px}
+  .feed{grid-template-columns:1fr}
+  .filt-lab{width:100%}
+  .masthead{padding-top:32px}
+  .sec-head .meta{margin-left:0;width:100%}
+
+  /* Touch targets: 44px minimum. The desktop sizes are comfortable with a
+     pointer but too small to hit reliably with a thumb. */
+  .pill{padding:12px 16px;min-height:44px;font-size:11px}
+  .selwrap{flex:1;min-width:150px}
+  .selwrap select{width:100%;padding:13px 32px 13px 14px;min-height:44px}
+  .searchbox{padding:11px 14px;min-height:44px}
+  .reset{min-height:44px;padding:10px 2px}
+  .card .company{display:flex;flex-wrap:wrap;align-items:center;gap:4px}
+  .house{min-height:56px}
+  .co-link{min-height:38px}
+  .dossier-x{width:44px;height:44px;font-size:17px}
+  .dossier-actions .pill{width:100%;justify-content:center}
+  /* The archive table is dense for a phone: let each row breathe. */
+  table.arch{min-width:560px}
+  .t-head{min-width:200px}
+}
+</style>
+<div class="ticker" id="ticker" aria-label="Today's headline figures"></div>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="brand">
+      <div class="eyebrow">Beauty &amp; Cosmetics · Deal Intelligence</div>
+      <h1 class="logo">Daily Beauty News</h1>
+      <p class="tag">The world's great beauty and personal-care houses, and every move that matters — swept every five minutes, and dated at the source.</p>
+    </div>
+    <div class="status">
+      <span class="dot" aria-hidden="true"></span>
+      <span id="statusText">Loading the live feed…</span>
+    </div>
+  </header>
+
+  <section class="kpis" id="kpis" aria-label="Summary figures"></section>
+
+  <div class="toolbar">
+    <div class="filt">
+      <div class="filt-row">
+        <span class="filt-lab">Sector</span>
+        <span id="sectors" style="display:contents"></span>
+      </div>
+      <div class="filt-row">
+        <span class="filt-lab">Type</span>
+        <span id="cats" style="display:contents"></span>
+        <span class="selwrap"><select id="geoFilter" aria-label="Filter by region"></select></span>
+        <span class="selwrap"><select id="coFilter" aria-label="Filter by company"></select></span>
+      </div>
+      <div class="filt-row">
+        <span class="filt-lab">Find</span>
+        <span class="searchbox">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input id="q" type="search" placeholder="Search a house, brand, deal or region" aria-label="Search events">
+        </span>
+        <button class="reset" id="reset" hidden>Clear all</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-head"><h2>The Latest</h2><span class="meta">Fresh · last 48 hours</span></div>
+  <p class="count" id="countLine" role="status" aria-live="polite"></p>
+  <div class="feed" id="feed"></div>
+
+  <div class="sec-head"><h2>Trade Press</h2><span class="meta" id="pressMeta">Last 48 hours</span></div>
+  <p class="count" id="pressCount"></p>
+  <div class="feed" id="pressFeed"></div>
+
+  <div class="sec-head"><h2>Earlier This Week</h2><span class="meta">Two to seven days</span></div>
+  <p class="count" id="archCount"></p>
+  <div id="archiveWrap"></div>
+
+  <div class="note">
+    <b>How this stays fresh.</b> Trade press, newswires and a Google News sweep of every house on the watchlist are polled every five minutes by a server-side job — nothing depends on a laptop or a chat session being open. Every publication date comes from the publisher's own feed metadata, never inferred. A new deal is pushed to your phone once, as soon as it is classified; the same deal from other outlets is merged into it, not re-sent. <b>The Latest</b> holds the past 48 hours; the archive keeps days two through seven. The status line above says when the last sweep finished — if it turns red, the pipe is down, not the market quiet.
+  </div>
+
+  <div class="sec-head"><h2>The Houses</h2><span class="meta" id="watchMeta">Watchlist</span></div>
+  <p class="count">Activity across the seven-day record. Select any house — or trade press outlet — to open its full 12-month dossier.</p>
+  <div class="houses" id="houses"></div>
+
+  <div class="colophon">
+    Sources — WWD · BeautyMatter · Beauty Independent · Business of Fashion · BW Confidential · Cosmetics Business · Global Cosmetics News · Premium Beauty News · TheIndustry.beauty · PR Newswire · Business Wire · GlobeNewswire · Google News sweeps of every watchlist house<br>
+    Signal only, not investment advice. Verify against primary filings before acting.
+  </div>
+</div>
+
+<div class="dossier" id="dossier" hidden>
+  <div class="dossier-scrim" data-close></div>
+  <div class="dossier-panel" role="dialog" aria-modal="true" aria-labelledby="dossierName">
+    <header class="dossier-head">
+      <div>
+        <div class="eyebrow" id="dossierKind">Company dossier · rolling 12 months</div>
+        <h2 class="dossier-name" id="dossierName"></h2>
+        <p class="dossier-sub" id="dossierSub"></p>
+      </div>
+      <button class="dossier-x" id="dossierClose" aria-label="Close dossier">✕</button>
+    </header>
+    <div class="dossier-stats" id="dossierStats"></div>
+    <div class="dossier-actions">
+      <button class="pill" id="dossierFilter">Filter the dashboard to this house</button>
+    </div>
+    <div class="dossier-body" id="dossierBody"></div>
+  </div>
+</div>
+
+<script>
+const WINDOW_DAYS = 1;    // Latest: today + yesterday ≈ 48h
+const ARCHIVE_DAYS = 7;   // Archive: days 2–7
+const CATS = {mna:"M&A", fund:"Funding", part:"Partnership", earn:"Earnings"};
+const CAT_FULL = {mna:"M&A / Divestiture", fund:"Funding / Capital", part:"Partnership / Licensing", earn:"Earnings / Guidance"};
+const SECTORS = ["Skincare","Color Cosmetics","Haircare","Fragrance","Body Care","Multi-category"];
+const GEOS = ["North America","Europe","Asia-Pacific","Latin America","Middle East & Africa","Global"];
+const STALE_MIN = 45;
+// On GitHub Pages the record is read straight from the repo's "data" branch, which the poller
+// rewrites every five minutes, so the page itself never needs redeploying. Locally: ./data/.
+const DATA_URL = (() => {
+  const h = location.hostname;
+  if (!h.endsWith(".github.io")) return "data/feed.json";
+  return `https://raw.githubusercontent.com/${h.split(".")[0]}/${location.pathname.split("/")[1]}/data/feed.json`;
+})();     // no finished sweep for this long = the pipe is down; say so in red
+
+function sweptLabel(iso){
+  const m = Math.round((Date.now() - Date.parse(iso)) / 6e4);
+  return m < 1 ? "just now" : m < 60 ? m + " min ago" : m < 1440 ? Math.round(m/60) + " h ago" : Math.round(m/1440) + " days ago";
+}
+function setStatus(data){
+  const el = document.querySelector(".status"), t = document.querySelector("#statusText");
+  const stale = (Date.now() - Date.parse(data.generatedAt)) / 6e4 > STALE_MIN;
+  el.classList.toggle("stale", stale);
+  const run = data.run || {};
+  const partial = run.sources && run.ok < run.sources ? ` · ${run.sources - run.ok} of ${run.sources} sources failing` : "";
+  t.innerHTML = stale
+    ? `Feed stale · last sweep <b>${sweptLabel(data.generatedAt)}</b>`
+    : `Swept <b>${sweptLabel(data.generatedAt)}</b> · every 5 min${partial}`;
+}
+
+(async function main(){
+  let data;
+  try {
+    const r = await fetch(DATA_URL + "?t=" + Date.now(), {cache: "no-store"});
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    data = await r.json();
+  } catch (err) {
+    document.querySelector("#statusText").textContent = "Could not load the live feed — check your connection and reload.";
+    document.querySelector(".status").classList.add("stale");
+    return;
+  }
+  const AS_OF = new Date().toLocaleDateString("en-CA");
+  const WATCH = data.watch;
+  const EVENTS = data.events, PAST = [], HISTORY = data.events;
+  const MEDIA = data.press;
+  const pressCounts = {}; MEDIA.forEach(p => pressCounts[p.outlet] = (pressCounts[p.outlet] || 0) + 1);
+  const MEDIA_HOUSES = Object.keys(pressCounts).sort((a, b) => pressCounts[b] - pressCounts[a]);
+  const rel = e => { const m = e.ts ? Math.round((Date.now() - e.ts) / 6e4) : null;
+    return m == null || m < 0 ? "Today" : m < 60 ? m + " min ago" : m < 720 ? Math.round(m / 60) + " h ago" : "Today"; };
+  setStatus(data);
+  document.querySelector("#pressMeta").textContent = MEDIA_HOUSES.slice(0, 6).join(" · ") + (MEDIA_HOUSES.length > 6 ? " and more" : "") + " — last 48 hours";
+
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const daysAgo = d => Math.round((new Date(AS_OF) - new Date(d)) / 864e5);
+  /* Dedupe by url: a mis-rotated record present in both arrays must not render twice. */
+  const uniq = list => {const seen=new Set();return list.filter(e=>seen.has(e.url)?false:(seen.add(e.url),true));};
+  const LIVE  = uniq(EVENTS.filter(e => daysAgo(e.date) <= WINDOW_DAYS && daysAgo(e.date) >= 0));
+  const OLDER = uniq(PAST.concat(EVENTS).filter(e => daysAgo(e.date) > WINDOW_DAYS && daysAgo(e.date) <= ARCHIVE_DAYS))
+                  .filter(e => !LIVE.some(l => l.url === e.url));
+  const ALL = LIVE.concat(OLDER);
+  /* The dossier reads the full year, falling back to the visible set if history is empty. */
+  const YEAR = uniq(HISTORY.length ? HISTORY.concat(ALL) : ALL);
+  const fmtDay = d => new Date(d+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"});
+  const ageLabel = d => {const n=daysAgo(d);return n===0?"Today":n===1?"Yesterday":n+" days ago";};
+  let state = {cat:"all", sec:"all", geo:"all", co:"all", q:""};
+  
+  
+  /* Ticker: live items when the market is moving. When the 48h window is empty it
+     falls back to the archive, but every borrowed item is stamped with its real age
+     so nothing aged can ever read as "today". */
+  function renderTicker(){
+    const bar = $("#ticker");
+    const stale = LIVE.length === 0;
+    const src = (stale ? OLDER : LIVE).slice(0,8);
+    if(!src.length){
+      bar.setAttribute("aria-label","No verified events in the last 48 hours");
+      bar.innerHTML = `<span class="ticker-track"><span class="ticker-item">
+        <span class="tk-co">Market quiet</span><span class="tk-v">no verified monetary events in the last 48 hours</span>
+        </span></span>`;
+      return;
+    }
+    bar.setAttribute("aria-label", stale
+      ? "No events in the last 48 hours — showing the most recent from the archive, each with its age"
+      : "Headline figures from the last 48 hours");
+    const item = e => {
+      const real = e.value !== "—" && e.value !== "Undisclosed";
+      const v = real ? e.value : CATS[e.cat];
+      const dir = /−|-\d|fall|decline|cuts/i.test(e.head) ? " down" : (/jump|rise|raises|up \d|surge/i.test(e.head) ? " up" : "");
+      const age = stale ? `<span class="tk-age">${esc(ageLabel(e.date))}</span>` : "";
+      return `<span class="ticker-item"><span class="tk-co">${esc(e.co)}</span>
+        <span class="tk-v${real?dir:""}">${esc(v)}</span>${age}</span><span class="ticker-sep">/</span>`;
+    };
+    const lead = stale
+      ? `<span class="ticker-item"><span class="tk-co">Quiet · last 48h</span><span class="tk-age">showing earlier stories</span></span><span class="ticker-sep">/</span>`
+      : "";
+    const strip = lead + src.map(item).join("");
+    bar.innerHTML = `<span class="ticker-track">${strip}${strip}</span>`;
+  }
+  
+  function renderKpis(){
+    /* Disclosed value spans the full 7-day record: a 48h-only figure reads $0.00B on
+       any quiet day while real deals sit in the archive, unsurfaced. */
+    const wk = ALL.reduce((s,e)=>s+(e.val||0),0);
+    const live48 = LIVE.reduce((s,e)=>s+(e.val||0),0);
+    const active = new Set(), offList = new Set();
+    ALL.forEach(e=>{ WATCH.includes(e.co)?active.add(e.co):offList.add(e.co);
+      (e.also||[]).forEach(a=>{if(WATCH.includes(a))active.add(a);}); });
+    const today = LIVE.filter(e=>daysAgo(e.date)===0).length;
+    const tiles=[
+      {fig:LIVE.length, lab:"Fresh · 48h", sub:"verified dates only"},
+      {fig:today, lab:"New today · 24h", sub:"scope of your alert"},
+      {fig:"$"+wk.toFixed(2)+"B", lab:"Disclosed value · 7d",
+       sub:live48>0?"$"+live48.toFixed(2)+"B of it in the last 48h":"none disclosed in the last 48h"},
+      {fig:active.size+"/"+WATCH.length, lab:"Houses in play",
+       sub:offList.size?`watchlist, 7d · +${offList.size} off-list`:"watchlist active, 7d"}
+    ];
+    $("#kpis").innerHTML = tiles.map(t=>`<div class="kpi">
+      <div class="fig">${esc(t.fig)}</div><div class="lab">${esc(t.lab)}</div>
+      <div class="sub">${esc(t.sub)}</div></div>`).join("");
+  }
+  function counts(field){const c={};ALL.forEach(e=>{c[e[field]]=(c[e[field]]||0)+1;});return c;}
+  
+  function renderSectors(){
+    const c=counts("sec");
+    const mk=(key,label)=>{
+      const n=key==="all"?ALL.length:(c[key]||0);
+      const dis=key!=="all"&&n===0?" disabled":"";
+      return `<button class="pill" data-sec="${esc(key)}" aria-pressed="${state.sec===key}"${dis}>
+        ${esc(label)}<span class="n">${n}</span></button>`;
+    };
+    $("#sectors").innerHTML = mk("all","All")+SECTORS.map(s=>mk(s,s)).join("");
+    $("#sectors").querySelectorAll(".pill").forEach(b=>b.onclick=()=>{
+      state.sec = state.sec===b.dataset.sec?"all":b.dataset.sec; render();});
+  }
+  function renderCats(){
+    const c=counts("cat");
+    const mk=(key,label)=>`<button class="pill" data-cat="${esc(key)}" aria-pressed="${state.cat===key}">
+      ${esc(label)}<span class="n">${key==="all"?ALL.length:(c[key]||0)}</span></button>`;
+    $("#cats").innerHTML = mk("all","All")+Object.entries(CATS).map(([k,l])=>mk(k,l)).join("");
+    $("#cats").querySelectorAll(".pill").forEach(b=>b.onclick=()=>{
+      state.cat = state.cat===b.dataset.cat?"all":b.dataset.cat; render();});
+  }
+  function renderSelects(){
+    $("#geoFilter").innerHTML = ['<option value="all">All regions</option>']
+      .concat(GEOS.map(g=>`<option value="${esc(g)}">${esc(g)}</option>`)).join("");
+    /* Off-watchlist names appear in the record too — list them so every company
+       with history is reachable from the picker, not just the 70 houses. */
+    const extra = [...new Set(YEAR.flatMap(e=>[e.co,...(e.also||[])]))]
+      .filter(c=>c && !WATCH.includes(c)).sort((a,b)=>a.localeCompare(b));
+    $("#coFilter").innerHTML = ['<option value="all">All companies</option>']
+      .concat(WATCH.map(w=>`<option value="${esc(w)}">${esc(w)}</option>`))
+      .concat(extra.length?[`<option disabled>— also in the record —</option>`]:[])
+      .concat(extra.map(w=>`<option value="${esc(w)}">${esc(w)}</option>`)).join("");
+    $("#geoFilter").onchange=e=>{state.geo=e.target.value;render();};
+    /* Picking a company from the dropdown opens its 12-month record directly —
+       no separate button to hunt for. */
+    $("#coFilter").onchange=e=>{
+      state.co=e.target.value; render();
+      if(state.co!=="all") openDossier(state.co);
+    };
+    $("#q").addEventListener("input",e=>{state.q=e.target.value;render();});
+    $("#reset").onclick=()=>{
+      state={cat:"all",sec:"all",geo:"all",co:"all",q:""};
+      $("#q").value="";$("#geoFilter").value="all";$("#coFilter").value="all";render();};
+  }
+  function match(e){
+    if(state.cat!=="all"&&e.cat!==state.cat)return false;
+    if(state.sec!=="all"&&e.sec!==state.sec)return false;
+    if(state.geo!=="all"&&e.geo!==state.geo)return false;
+    if(state.co!=="all"&&e.co!==state.co&&!(e.also||[]).includes(state.co))return false;
+    if(state.q){const h=(e.co+" "+(e.also||[]).join(" ")+" "+e.head+" "+e.sum+" "+e.sec+" "+e.geo).toLowerCase();
+      if(!h.includes(state.q.toLowerCase()))return false;}
+    return true;
+  }
+  function card(e){
+    const d=daysAgo(e.date);
+    const when=d===0?`<span class="when today">${esc(rel(e))}</span>`:'<span class="when">Yesterday</span>';
+    const na=(e.value==="—"||e.value==="Undisclosed");
+    const amt=na?`<span class="amount na">${e.value==="—"?"No sum disclosed":"Undisclosed"}</span>`
+                :`<span class="amount">${esc(e.value)}</span>`;
+    const also=(e.also||[]).length?` <span class="also">with ${esc(e.also.join(", "))}</span>`:"";
+    return `<article class="card${e.hi?" hi":""}">
+      <div class="tags">
+        <span class="tag-sec">${esc(e.sec)}</span><span class="tag-dot"></span>
+        <span class="tag-m">${esc(CAT_FULL[e.cat])}</span><span class="tag-dot"></span>
+        <span class="tag-m">${esc(e.geo)}</span>
+        ${e.hi?'<span class="tag-major">Major move</span>':""}
+        ${e.rumor?'<span class="tag-rep">Reported</span>':""}
+        ${when}
+      </div>
+      <h3 class="headline">${esc(e.head)}</h3>
+      <div class="company"><button class="co-link" data-dossier="${esc(e.co)}"
+        aria-haspopup="dialog" title="See every ${esc(e.co)} story from the last 12 months">${esc(e.co)}</button>${also}</div>
+      ${e.sum?`<p class="card-sum">${esc(e.sum)}</p>`:""}
+      <div class="card-foot">
+        ${amt}
+        <span class="srcline"><span class="ver">✓ Verified ${esc(e.srcDate)}</span>
+        <a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.src)} ↗</a>${(e.sources||[]).length>1?`<span class="more" title="${esc(e.sources.map(s=>s.src).join(", "))}">+${e.sources.length-1} more</span>`:""}</span>
+      </div>
+    </article>`;
+  }
+  function row(e){
+    const na=(e.value==="—"||e.value==="Undisclosed");
+    const val=na?`<td class="t-val na">${e.value==="—"?"—":"Undisc."}</td>`
+                :`<td class="t-val">${esc(e.value)}</td>`;
+    const rep=e.rumor?' <span class="tag-rep">Reported</span>':"";
+    return `<tr>
+      <td class="t-date">${esc(e.srcDate)} · ${daysAgo(e.date)}d</td>
+      <td class="t-co"><button class="co-link" data-dossier="${esc(e.co)}"
+        aria-haspopup="dialog" title="Open the 12-month dossier for ${esc(e.co)}">${esc(e.co)}</button></td>
+      <td class="t-sec">${esc(e.sec)}</td>
+      <td class="t-head"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.head)}</a>${rep}</td>
+      ${val}
+    </tr>`;
+  }
+  function pressCard(e){
+    const when=daysAgo(e.date)===0?`<span class="when today">${esc(rel(e))}</span>`:'<span class="when">Yesterday</span>';
+    return `<article class="press-card">
+      <div class="tags">
+        <span class="tag-sec">${esc(e.outlet)}</span>${when}
+      </div>
+      <h3 class="headline">${esc(e.head)}</h3>
+      ${e.sum?`<p class="card-sum">${esc(e.sum)}</p>`:""}
+      <div class="card-foot">
+        <span></span>
+        <span class="srcline"><span class="ver">✓ Verified ${esc(e.srcDate)}</span>
+        <a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.outlet)} ↗</a></span>
+      </div>
+    </article>`;
+  }
+  function renderPress(){
+    const live = MEDIA.filter(e=>{const d=daysAgo(e.date); return d>=0 && d<=WINDOW_DAYS;})
+      .sort((a,b)=>new Date(b.date)-new Date(a.date));
+    $("#pressFeed").innerHTML = live.length ? live.map(pressCard).join("")
+      : `<div class="empty">No verified trade-press stories in the last 48 hours.</div>`;
+    $("#pressCount").textContent = `${live.length} ${live.length===1?"story":"stories"} across ${MEDIA_HOUSES.length} outlets`;
+  }
+  function renderHouses(){
+    const tally = list => {const c={};list.forEach(e=>{if(WATCH.includes(e.co))c[e.co]=(c[e.co]||0)+1;
+      (e.also||[]).forEach(a=>{if(WATCH.includes(a))c[a]=(c[a]||0)+1;});});return c;};
+    const c=tally(ALL), y=tally(YEAR);
+    const companyTiles = WATCH.map(w=>{const n=c[w]||0, yn=y[w]||0;
+      return `<button class="house${n?" on":" quiet"}" data-dossier="${esc(w)}"
+        aria-current="${state.co===w?"true":"false"}" aria-haspopup="dialog"
+        title="${esc(w)} — ${yn} ${yn===1?"story":"stories"} on record in the last 12 months">
+        <span class="hn">${esc(w)}</span><span class="hc">${n||"·"}</span></button>`;}).join("");
+    const pressTiles = MEDIA_HOUSES.map(o=>{
+      const items = MEDIA.filter(e=>e.outlet===o);
+      const n7 = items.filter(e=>daysAgo(e.date)<=ARCHIVE_DAYS).length;
+      return `<button class="house press${n7?" on":" quiet"}" data-dossier="${esc(o)}"
+        aria-current="${state.co===o?"true":"false"}" aria-haspopup="dialog"
+        title="${esc(o)} — ${items.length} ${items.length===1?"story":"stories"} on record in the last 12 months">
+        <span class="hn">${esc(o)}</span><span class="hc">${n7||"·"}</span></button>`;}).join("");
+    $("#houses").innerHTML = companyTiles
+      + `<div class="press-divider">Trade Press</div>` + pressTiles;
+  }
+  function label(){
+    const p=[];
+    if(state.sec!=="all")p.push(state.sec);
+    if(state.cat!=="all")p.push(CAT_FULL[state.cat]);
+    if(state.geo!=="all")p.push(state.geo);
+    if(state.co!=="all")p.push(state.co);
+    if(state.q)p.push(`“${state.q}”`);
+    return p;
+  }
+  /* ——— Company / trade-press dossier: every verified story for one house across 12 months ——— */
+  let dossierPrev = null;
+  function isMediaHouse(id){ return MEDIA_HOUSES.includes(id); }
+  function dossierFor(co){
+    if(isMediaHouse(co)) return MEDIA.filter(e=>e.outlet===co).sort((a,b)=>new Date(b.date)-new Date(a.date));
+    return YEAR.filter(e => e.co===co || (e.also||[]).includes(co))
+               .sort((a,b)=> new Date(b.date)-new Date(a.date));
+  }
+  function openDossier(co){
+    const media = isMediaHouse(co);
+    const rows = dossierFor(co);
+    $("#dossierName").textContent = co;
+    $("#dossierKind").textContent = media ? "Trade press dossier · rolling 12 months" : "Company dossier · rolling 12 months";
+    $("#dossierFilter").style.display = media ? "none" : "";
+  
+    if(media){
+      const n7 = rows.filter(e=>daysAgo(e.date)<=ARCHIVE_DAYS).length;
+      const n1 = rows.filter(e=>daysAgo(e.date)<=WINDOW_DAYS).length;
+      $("#dossierSub").textContent = rows.length
+        ? `${rows.length} verified ${rows.length===1?"story":"stories"} · ${fmtDay(rows[rows.length-1].date)} — ${fmtDay(rows[0].date)}`
+        : "No verified stories recorded for this outlet in the last 12 months.";
+      $("#dossierStats").innerHTML = [
+        {f:rows.length, l:"Stories · 12m"},
+        {f:n7, l:"Stories · 7d"},
+        {f:n1, l:"Stories · 48h"},
+        {f:rows.length?fmtDay(rows[0].date):"—", l:"Most recent"}
+      ].map(s=>`<div class="dstat"><div class="f">${esc(s.f)}</div><div class="l">${esc(s.l)}</div></div>`).join("");
+  
+      let html="", month="";
+      rows.forEach(e=>{
+        const m = new Date(e.date+"T12:00:00").toLocaleDateString("en-US",{month:"long",year:"numeric"});
+        if(m!==month){ month=m; html += `<div class="dmonth">${esc(m)}</div>`; }
+        html += `<div class="ditem">
+          <div class="dwhen">${esc(fmtDay(e.date))}</div>
+          <div class="dmain">
+            <p class="dhead"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.head)}</a></p>
+            ${e.sum?`<p class="card-sum" style="margin-top:8px">${esc(e.sum)}</p>`:""}
+          </div>
+        </div>`;
+      });
+      $("#dossierBody").innerHTML = rows.length ? html
+        : `<div class="empty">Nothing recorded for ${esc(co)} in the rolling 12-month window.</div>`;
+    } else {
+      const val = rows.reduce((s,e)=>s+(e.val||0),0);
+      const byCat = {}; rows.forEach(e=>{byCat[e.cat]=(byCat[e.cat]||0)+1;});
+      const top = Object.entries(byCat).sort((a,b)=>b[1]-a[1])[0];
+      $("#dossierSub").textContent = rows.length
+        ? `${rows.length} verified ${rows.length===1?"story":"stories"} · ${fmtDay(rows[rows.length-1].date)} — ${fmtDay(rows[0].date)}`
+        : "No verified stories recorded for this house in the last 12 months.";
+      $("#dossierStats").innerHTML = [
+        {f:rows.length, l:"Stories · 12m"},
+        {f:"$"+val.toFixed(2)+"B", l:"Disclosed value"},
+        {f:rows.filter(e=>e.hi).length, l:"Major moves"},
+        {f:top?CATS[top[0]]:"—", l:"Most frequent"}
+      ].map(s=>`<div class="dstat"><div class="f">${esc(s.f)}</div><div class="l">${esc(s.l)}</div></div>`).join("");
+  
+      let html="", month="";
+      rows.forEach(e=>{
+        const m = new Date(e.date+"T12:00:00").toLocaleDateString("en-US",{month:"long",year:"numeric"});
+        if(m!==month){ month=m; html += `<div class="dmonth">${esc(m)}</div>`; }
+        const na=(e.value==="—"||e.value==="Undisclosed");
+        const partner=(e.also||[]).length?`<span>with ${esc(e.also.join(", "))}</span>`:"";
+        html += `<div class="ditem">
+          <div class="dwhen">${esc(fmtDay(e.date))}</div>
+          <div class="dmain">
+            <p class="dhead"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.head)}</a></p>
+            <div class="dmeta">
+              <span>${esc(CAT_FULL[e.cat])}</span><span class="tag-dot"></span>
+              <span>${esc(e.sec)}</span><span class="tag-dot"></span><span>${esc(e.geo)}</span>
+              ${e.hi?'<span class="tag-major">Major</span>':""}
+              ${e.rumor?'<span class="tag-rep">Reported</span>':""}
+              ${partner}<span class="tag-dot"></span><span>${esc(e.src)}</span>
+            </div>
+          </div>
+          <div class="dval${na?" na":""}">${na?(e.value==="—"?"—":"Undisc."):esc(e.value)}</div>
+        </div>`;
+      });
+      $("#dossierBody").innerHTML = rows.length ? html
+        : `<div class="empty">Nothing recorded for ${esc(co)} in the rolling 12-month window.</div>`;
+      $("#dossierFilter").onclick = ()=>{
+        state.co=co; $("#coFilter").value=co; closeDossier(); render();
+        document.querySelector(".toolbar").scrollIntoView({behavior:"smooth",block:"start"});
+      };
+    }
+    dossierPrev = document.activeElement;
+    $("#dossier").hidden = false;
+    document.body.style.overflow = "hidden";
+    $("#dossierClose").focus();
+  }
+  function closeDossier(){
+    $("#dossier").hidden = true;
+    document.body.style.overflow = "";
+    if(dossierPrev && dossierPrev.focus) dossierPrev.focus();
+  }
+  document.addEventListener("click", ev=>{
+    const t = ev.target.closest("[data-dossier]");
+    if(t){ ev.preventDefault(); openDossier(t.dataset.dossier); return; }
+    if(ev.target.closest("[data-close]")) closeDossier();
+  });
+  $("#dossierClose").onclick = closeDossier;
+  document.addEventListener("keydown", ev=>{
+    const open = !$("#dossier").hidden;
+    if(!open) return;
+    if(ev.key === "Escape"){ closeDossier(); return; }
+    if(ev.key !== "Tab") return;
+    const f = [...$("#dossier").querySelectorAll('a[href],button')].filter(x=>x.offsetParent!==null);
+    if(!f.length) return;
+    const first=f[0], last=f[f.length-1];
+    if(ev.shiftKey && document.activeElement===first){ ev.preventDefault(); last.focus(); }
+    else if(!ev.shiftKey && document.activeElement===last){ ev.preventDefault(); first.focus(); }
+  });
+  
+  function render(){
+    const rows=LIVE.filter(match).sort((a,b)=>new Date(b.date)-new Date(a.date));
+    $("#feed").innerHTML = rows.length?rows.map(card).join("")
+      :`<div class="empty">Nothing in the last 48 hours matches this selection — a quiet market, not missing coverage.</div>`;
+    const parts=label();
+    $("#countLine").textContent = `${rows.length} ${rows.length===1?"story":"stories"}`+(parts.length?" — "+parts.join(" · "):", all sectors");
+  
+    const old=OLDER.filter(match).sort((a,b)=>new Date(b.date)-new Date(a.date));
+    $("#archiveWrap").innerHTML = old.length
+      ? `<div class="tablewrap"><table class="arch">
+          <thead><tr><th>When</th><th>House</th><th>Sector</th><th>Story</th><th>Value</th></tr></thead>
+          <tbody>${old.map(row).join("")}</tbody></table></div>`
+      : `<div class="empty">Nothing earlier this week matches this selection.</div>`;
+    $("#archCount").textContent = `${old.length} in the two-to-seven-day window — kept for context, retired after seven days.`;
+  
+    $("#reset").hidden = parts.length===0;
+    renderSectors();renderCats();renderHouses();
+  }
+  $("#watchMeta").textContent = `Watchlist · ${WATCH.length} + ${MEDIA_HOUSES.length} press`;
+  renderTicker();renderKpis();renderSelects();renderPress();render();
+
+  // Keep an open tab current: re-check every 2 minutes and whenever the phone brings the page back.
+  // Reload only when a newer sweep exists and the reader is not mid-dossier or mid-search.
+  async function checkForUpdate(){
+    try {
+      const r = await fetch(DATA_URL + "?t=" + Date.now(), {cache: "no-store"});
+      const next = await r.json();
+      if (next.generatedAt === data.generatedAt) { setStatus(data); return; }
+      const busy = !$("#dossier").hidden || document.activeElement === $("#q") || state.q;
+      if (busy) { setStatus(next); return; }
+      location.reload();
+    } catch (e) { setStatus(data); }
+  }
+  setInterval(checkForUpdate, 120000);
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkForUpdate(); });
+})();
+</script>
+
+</body></html>

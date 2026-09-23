@@ -1,0 +1,63 @@
+name: poll
+# Every 5 minutes: sweep all sources, push new deals to the phone (ntfy), and rewrite the record
+# on the orphan "data" branch, which the dashboard reads directly. Runs on GitHub's servers;
+# no laptop or chat session involved. GitHub may delay scheduled runs by a few minutes under load.
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # push the data branch
+  actions: write    # keep this schedule from being auto-disabled after 60 quiet days
+
+concurrency:
+  group: poll
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Load the record
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git clone -q --depth 1 -b data "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" data; then
+            rm -rf data/.git
+          else
+            echo "no data branch yet: first run seeds from seed/history.json"; mkdir -p data
+          fi
+
+      - name: Sweep sources and push alerts
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          NOTIFY_PRESS: ${{ vars.NOTIFY_PRESS }}
+          HEALTHCHECK_URL: ${{ secrets.HEALTHCHECK_URL }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: node scripts/poll.mjs
+
+      - name: Save the record
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd data
+          git init -q -b data
+          git add feed.json state.json
+          git -c user.name="beauty-news-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -qm "sweep $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -qf "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" data
+
+      - name: Keep the schedule alive
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${GITHUB_REPOSITORY}/actions/workflows/poll.yml/enable" || true

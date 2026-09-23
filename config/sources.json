@@ -1,0 +1,26 @@
+{
+  "_comment": "beauty: every item is beauty-relevant (skip the relevance test). press: items appear in the Trade Press section. Google News entries are queries against news.google.com RSS; 'name' overrides the outlet shown.",
+  "feeds": [
+    { "id": "wwd",        "name": "WWD",                    "url": "https://wwd.com/beauty-industry-news/feed/", "beauty": true,  "press": true },
+    { "id": "gcn",        "name": "Global Cosmetics News",  "url": "https://www.globalcosmeticsnews.com/feed/", "beauty": true,  "press": true },
+    { "id": "cosbiz",     "name": "Cosmetics Business",     "url": "https://www.cosmeticsbusiness.com/rss",     "beauty": true,  "press": true },
+    { "id": "industry",   "name": "TheIndustry.beauty",     "url": "https://theindustry.beauty/feed/",          "beauty": true,  "press": true },
+    { "id": "pbn",        "name": "Premium Beauty News",    "url": "https://www.premiumbeautynews.com/spip.php?page=backend&lang=en", "beauty": true, "press": true },
+    { "id": "bwc",        "name": "BW Confidential",        "url": "https://www.bwconfidential.com/feed/",      "beauty": true,  "press": true },
+    { "id": "prn-beauty", "name": "PR Newswire",            "url": "https://www.prnewswire.com/rss/consumer-products-retail-latest-news/cosmetics-personal-care-list.rss", "beauty": true, "press": false },
+    { "id": "prn-all",    "name": "PR Newswire",            "url": "https://www.prnewswire.com/rss/news-releases-list.rss", "beauty": false, "press": false }
+  ],
+  "googleNews": [
+    { "id": "gn-beautymatter",  "name": "BeautyMatter",       "q": "site:beautymatter.com when:2d",        "beauty": true,  "press": true },
+    { "id": "gn-beautyindie",   "name": "Beauty Independent", "q": "site:beautyindependent.com when:2d",   "beauty": true,  "press": true },
+    { "id": "gn-bof",           "name": "Business of Fashion", "q": "site:businessoffashion.com (beauty OR cosmetics OR skincare OR fragrance OR makeup) when:2d", "beauty": false, "press": true },
+    { "id": "gn-businesswire",  "name": "Business Wire",      "q": "site:businesswire.com (beauty OR cosmetics OR skincare OR fragrance OR haircare OR \"personal care\") when:1d", "beauty": false, "press": false },
+    { "id": "gn-globenewswire", "name": "GlobeNewswire",      "q": "site:globenewswire.com (beauty OR cosmetics OR skincare OR fragrance OR haircare OR \"personal care\") when:1d", "beauty": false, "press": false },
+    { "id": "gn-deals",         "name": null, "q": "(beauty OR cosmetics OR skincare OR fragrance OR haircare OR makeup OR \"personal care\") (acquires OR acquisition OR \"to acquire\" OR raises OR funding OR IPO OR stake OR merger OR divests) when:1d", "beauty": false, "press": false }
+  ],
+  "watchlistQuery": {
+    "_comment": "The watchlist is swept through Google News in groups, so a deal at any tracked house surfaces even when no trade outlet has covered it yet.",
+    "terms": "(acquire OR acquires OR acquisition OR stake OR merger OR IPO OR funding OR investment OR earnings OR results OR guidance OR partnership OR licence OR license OR divest OR sells OR sale) when:1d",
+    "groupSize": 8
+  }
+}
