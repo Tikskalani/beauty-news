@@ -1,10 +1,14 @@
 #!/usr/bin/env node
 // Beauty News poller. One run: fetch every feed -> classify -> merge into the record ->
-// push new deal events to the phone via ntfy. No dependencies; Node 20+.
+// alert on new deal events by SMS (Twilio) and/or ntfy. No dependencies; Node 20+.
 //
 // Env:
 //   DATA_DIR       where feed.json / state.json live (default ./data)
-//   NTFY_TOPIC     ntfy topic to publish to; unset = dry run (prints what it would send)
+//   TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_FROM, SMS_TO (comma-separated E.164 numbers)
+//                  send each alert as a text message
+//   NTFY_TOPIC     ntfy topic to publish to
+//                  (no channel configured = dry run: prints what it would send)
+//   TEST_ALERT     "1" sends one test alert through every configured channel and exits
 //   NTFY_SERVER    default https://ntfy.sh
 //   SITE_URL       dashboard URL, attached to each push as a "Dashboard" button
 //   NOTIFY_PRESS   "1" also pushes non-deal trade-press stories (low priority, digested)
@@ -108,7 +112,7 @@ const RE = {
   noise: /(\d+% off|\bbest\b.*\b(buy|of 20\d\d|for)\b|\bprime day\b|black friday|cyber monday|\bcoupon|promo code|\bon sale\b|deal alert|\bshop the\b|\bgift guide\b|\breview:|\bhoroscope|\btested\b|\bwe tried\b|\bdupe\b)/,
   // Headlines that carry deal words but are not deals: stock chatter, insider sales, results-date
   // notices, litigation, executive moves.
-  notDeal: /(\bstock (?:holds|steadies|gains|slips|rises|falls|climbs|drops|jumps|rallies|sinks|surges|tumbles)|\bshares? (?:rise|fall|jump|slip|climb|drop|gain)|\bsells? [\d,.]+ (?:k |m )?shares|\binsider\b|price target|stock forecast|should you buy|\b(?:buy|sell|hold) rating|\bdividend|\bto (?:issue|report|announce|release|host|review|discuss|present)\b.*\b(?:results|earnings|call)\b|conference call|\bwebcast|\blawsuit|\bsues?\b|\bsued\b|\bcourt\b|\bdismissal|\bverdict|\bclass action)/,
+  notDeal: /(\bstock (?:holds|steadies|gains|slips|rises|falls|climbs|drops|jumps|rallies|sinks|surges|tumbles)|\bshares? (?:rise|fall|jump|slip|climb|drop|gain)|\bsells? [\d,.]+ (?:k |m )?shares|\binsider\b|price target|stock forecast|should you buy|\b(?:buy|sell|hold) rating|\bdividend|\bto (?:issue|report|announce|release|host|review|discuss|present)\b.*\b(?:results|earnings|call)\b|conference call|\brelease date|\bdate for\b.*\b(?:results|earnings)|\bwebcast|\blawsuit|\bsues?\b|\bsued\b|\bcourt\b|\bdismissal|\bverdict|\bclass action)/,
   exec: /\b(appoints?|names?|named|hires?|promot\w+|steps? down|resigns?|retires?|successor|new ceo|as ceo|chief \w+ officer)\b/,
   mna: /\b(acquir\w*|acquisition|takeover|merger|merges?|merging|buys|bought|to buy|divest\w*|sells?|sold|sale of|spin-?off|carve-?out|majority stake|minority stake|controlling stake|stake in|takes? stake|buyout|exits?\b.*\bjoint venture|bid for|offer for|tender offer)\b/,
   fund: /\b(raises?|raised|raising|funding|series [a-f]\b|seed round|pre-seed|investment from|invests?|invested|investor|backs|backed by|ipo|initial public offering|files? (?:for|to) (?:an )?(?:ipo|list)|listing|goes public|private placement|capital raise|financing|valuation|venture)\b/,
@@ -249,17 +253,44 @@ function findTwin(events, ev) {
   });
 }
 
-// ─── ntfy ────────────────────────────────────────────────────────────────────
+// ─── alert channels: SMS (Twilio) and/or ntfy; each fires only if configured ──
 const TAGS = { mna: 'handshake', fund: 'moneybag', earn: 'chart_with_upwards_trend', part: 'link' };
-async function push(msg) {
+const TW = { sid: process.env.TWILIO_ACCOUNT_SID, token: process.env.TWILIO_AUTH_TOKEN, from: process.env.TWILIO_FROM,
+  to: (process.env.SMS_TO || '').split(',').map(s => s.trim()).filter(Boolean) };
+const SMS_ON = !!(TW.sid && TW.token && TW.from && TW.to.length);
+
+async function sendNtfy(msg) {
   const body = { topic: NTFY_TOPIC, ...msg };
   if (SITE_URL) body.actions = [{ action: 'view', label: 'Dashboard', url: SITE_URL }];
-  if (!NTFY_TOPIC) { console.log('[dry-run push]', JSON.stringify({ ...body, topic: undefined })); return true; }
-  try {
-    const res = await fetch(NTFY_SERVER, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return true;
-  } catch (err) { console.error('push failed:', err.message); return false; }
+  const res = await fetch(NTFY_SERVER, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
+  if (!res.ok) throw new Error(`ntfy HTTP ${res.status}`);
+}
+// A text must stay short: headline + figure + the dashboard link (article links run 200+ chars).
+function smsText(msg) {
+  const link = SITE_URL.replace(/^https?:\/\//, '');
+  const room = 300 - link.length - 2;
+  let text = `${msg.title}\n${msg.message}`;
+  if (text.length > room) text = text.slice(0, room - 1).replace(/\s+\S*$/, '') + '…';
+  return link ? `${text}\n${link}` : text;
+}
+async function sendSms(msg) {
+  const auth = 'Basic ' + Buffer.from(`${TW.sid}:${TW.token}`).toString('base64');
+  for (const to of TW.to) {
+    const res = await fetch(`https://api.twilio.com/2010-04-01/Accounts/${TW.sid}/Messages.json`, {
+      method: 'POST', headers: { authorization: auth, 'content-type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({ To: to, From: TW.from, Body: smsText(msg) }),
+    });
+    if (!res.ok) throw new Error(`Twilio HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  }
+}
+async function push(msg) {
+  if (!SMS_ON && !NTFY_TOPIC) { console.log('[dry-run alert]\n' + smsText(msg)); return true; }
+  let ok = false;
+  for (const [name, on, send] of [['sms', SMS_ON, sendSms], ['ntfy', !!NTFY_TOPIC, sendNtfy]]) {
+    if (!on) continue;
+    try { await send(msg); ok = true; } catch (err) { console.error(`${name} alert failed:`, err.message); }
+  }
+  return ok;
 }
 async function notifyEvents(list) {
   if (!list.length) return 0;
@@ -281,6 +312,11 @@ async function notifyEvents(list) {
 }
 
 // ─── main ────────────────────────────────────────────────────────────────────
+if (process.env.TEST_ALERT === '1') {
+  const ok = await push({ title: 'Beauty News test alert', message: 'If you can read this, new deals will reach you here within minutes of publication.', priority: 4, tags: ['white_check_mark'], click: SITE_URL || undefined });
+  console.log(ok ? `test alert sent via ${[SMS_ON && 'sms', NTFY_TOPIC && 'ntfy'].filter(Boolean).join(' + ') || 'dry-run'}` : 'test alert FAILED');
+  process.exit(ok ? 0 : 1);
+}
 const now = Date.now();
 await mkdir(DATA_DIR, { recursive: true });
 const feedPath = path.join(DATA_DIR, 'feed.json'), statePath = path.join(DATA_DIR, 'state.json');

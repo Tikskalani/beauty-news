@@ -10,18 +10,23 @@ Nothing here depends on a laptop being on or a Claude session being open.
 
 ```
 GitHub Actions (every 5 min)            phone
-  scripts/poll.mjs ── new deal ──► ntfy.sh ──► ntfy app (push)
+  scripts/poll.mjs ── new deal ──► Twilio SMS / ntfy ──► your phone
         │
         └─ writes feed.json ──► "data" branch ──► dashboard (GitHub Pages, reads it live)
 ```
 
 ## One-time setup
 
-1. **Phone:** install **ntfy** (App Store / Google Play). Tap **+**, subscribe to your private topic
-   name (a long random string; anyone who knows it can read it). Keep the server as `ntfy.sh`.
+1. **Alert channel.** Either or both:
+   - **Text message (Twilio):** set four repository secrets: `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`,
+     `TWILIO_FROM` (your Twilio number, e.g. `+18325551234`), `SMS_TO` (your mobile, same format;
+     comma-separate several). US carriers only deliver business texts from a registered sender: complete
+     Twilio's **toll-free verification** (toll-free number) or **A2P 10DLC** registration (local number).
+   - **ntfy push:** install **ntfy**, subscribe to a private topic on `ntfy.sh`, set secret `NTFY_TOPIC`.
+   Then *Actions → test-alert → Run workflow* sends one test through every configured channel.
 2. **Repo:** push this folder to a **public** GitHub repo (public = unlimited Actions minutes and free
    Pages; no secrets are stored in the code). Then in the repo:
-   - *Settings → Secrets and variables → Actions → New repository secret:* `NTFY_TOPIC` = your topic.
+   - *Settings → Secrets and variables → Actions:* the secrets from step 1.
    - *Settings → Pages → Source:* **GitHub Actions**.
    - *Actions* tab: enable workflows, open **pages** → *Run workflow*, then **poll** → *Run workflow*.
 3. Dashboard: `https://<your-username>.github.io/<repo-name>/`. On a phone, *Share → Add to Home Screen*.

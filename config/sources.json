@@ -7,7 +7,7 @@
     { "id": "industry",   "name": "TheIndustry.beauty",     "url": "https://theindustry.beauty/feed/",          "beauty": true,  "press": true },
     { "id": "pbn",        "name": "Premium Beauty News",    "url": "https://www.premiumbeautynews.com/spip.php?page=backend&lang=en", "beauty": true, "press": true },
     { "id": "bwc",        "name": "BW Confidential",        "url": "https://www.bwconfidential.com/feed/",      "beauty": true,  "press": true },
-    { "id": "prn-beauty", "name": "PR Newswire",            "url": "https://www.prnewswire.com/rss/consumer-products-retail-latest-news/cosmetics-personal-care-list.rss", "beauty": true, "press": false },
+    { "id": "prn-beauty", "name": "PR Newswire",            "url": "https://www.prnewswire.com/rss/consumer-products-retail-latest-news/cosmetics-personal-care-list.rss", "beauty": false, "press": false },
     { "id": "prn-all",    "name": "PR Newswire",            "url": "https://www.prnewswire.com/rss/news-releases-list.rss", "beauty": false, "press": false }
   ],
   "googleNews": [
