@@ -595,6 +595,14 @@ function setStatus(data){
 
   const $ = s => document.querySelector(s);
   const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const safeUrl = value => {
+    try {
+      const url = new URL(String(value));
+      return url.protocol === "http:" || url.protocol === "https:" ? url.href : "#";
+    } catch {
+      return "#";
+    }
+  };
   const daysAgo = d => Math.round((new Date(AS_OF) - new Date(d)) / 864e5);
   /* Dedupe by url: a mis-rotated record present in both arrays must not render twice. */
   const uniq = list => {const seen=new Set();return list.filter(e=>seen.has(e.url)?false:(seen.add(e.url),true));};
@@ -739,7 +747,7 @@ function setStatus(data){
       <div class="card-foot">
         ${amt}
         <span class="srcline"><span class="ver">✓ Verified ${esc(e.srcDate)}</span>
-        <a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.src)} ↗</a>${(e.sources||[]).length>1?`<span class="more" title="${esc(e.sources.map(s=>s.src).join(", "))}">+${e.sources.length-1} more</span>`:""}</span>
+        <a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">${esc(e.src)} ↗</a>${(e.sources||[]).length>1?`<span class="more" title="${esc(e.sources.map(s=>s.src).join(", "))}">+${e.sources.length-1} more</span>`:""}</span>
       </div>
     </article>`;
   }
@@ -753,7 +761,7 @@ function setStatus(data){
       <td class="t-co"><button class="co-link" data-dossier="${esc(e.co)}"
         aria-haspopup="dialog" title="Open the 12-month dossier for ${esc(e.co)}">${esc(e.co)}</button></td>
       <td class="t-sec">${esc(e.sec)}</td>
-      <td class="t-head"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.head)}</a>${rep}</td>
+      <td class="t-head"><a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">${esc(e.head)}</a>${rep}</td>
       ${val}
     </tr>`;
   }
@@ -768,7 +776,7 @@ function setStatus(data){
       <div class="card-foot">
         <span></span>
         <span class="srcline"><span class="ver">✓ Verified ${esc(e.srcDate)}</span>
-        <a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.outlet)} ↗</a></span>
+        <a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">${esc(e.outlet)} ↗</a></span>
       </div>
     </article>`;
   }
@@ -842,7 +850,7 @@ function setStatus(data){
         html += `<div class="ditem">
           <div class="dwhen">${esc(fmtDay(e.date))}</div>
           <div class="dmain">
-            <p class="dhead"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.head)}</a></p>
+            <p class="dhead"><a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">${esc(e.head)}</a></p>
             ${e.sum?`<p class="card-sum" style="margin-top:8px">${esc(e.sum)}</p>`:""}
           </div>
         </div>`;
@@ -872,7 +880,7 @@ function setStatus(data){
         html += `<div class="ditem">
           <div class="dwhen">${esc(fmtDay(e.date))}</div>
           <div class="dmain">
-            <p class="dhead"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.head)}</a></p>
+            <p class="dhead"><a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener">${esc(e.head)}</a></p>
             <div class="dmeta">
               <span>${esc(CAT_FULL[e.cat])}</span><span class="tag-dot"></span>
               <span>${esc(e.sec)}</span><span class="tag-dot"></span><span>${esc(e.geo)}</span>
