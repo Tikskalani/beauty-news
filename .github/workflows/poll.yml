@@ -9,7 +9,6 @@ on:
 
 permissions:
   contents: write   # push the data branch
-  actions: write    # keep this schedule from being auto-disabled after 60 quiet days
 
 concurrency:
   group: poll
@@ -59,9 +58,3 @@ jobs:
           git -c user.name="beauty-news-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
             commit -qm "sweep $(date -u +%Y-%m-%dT%H:%MZ)"
           git push -qf "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" data
-
-      - name: Keep the schedule alive
-        if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh api -X PUT "repos/${GITHUB_REPOSITORY}/actions/workflows/poll.yml/enable" || true

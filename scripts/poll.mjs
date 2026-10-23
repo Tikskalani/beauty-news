@@ -49,6 +49,14 @@ const sha = s => createHash('sha1').update(s).digest('hex').slice(0, 16);
 const ymd = t => new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' }).format(t);
 const shortDay = t => new Intl.DateTimeFormat('en-US', { timeZone: TZ, month: 'short', day: 'numeric' }).format(t);
 const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const httpUrl = value => {
+  try {
+    const url = new URL(value);
+    return url.protocol === 'http:' || url.protocol === 'https:' ? url.href : '';
+  } catch {
+    return '';
+  }
+};
 
 // ─── feed parsing (RSS 2.0, RSS 1.0/RDF, Atom) ───────────────────────────────
 function tag(block, name) {
@@ -66,7 +74,7 @@ function parseFeed(xml) {
     const srcTag = b.match(/<source\b[^>]*>([\s\S]*?)<\/source>/i);
     return {
       title: clean(tag(b, 'title')),
-      link: link.trim(),
+      link: httpUrl(link.trim()),
       desc: clean(tag(b, 'description') || tag(b, 'summary') || tag(b, 'content')),
       ts: Date.parse(when.replace(/ UTC$/, ' GMT')),
       source: srcTag ? clean(srcTag[1]) : '',
